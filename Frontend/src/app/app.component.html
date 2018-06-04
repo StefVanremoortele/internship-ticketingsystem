@@ -1,0 +1,40 @@
+<div class="alternative">
+
+
+  <mat-toolbar color="primary" class="header">
+    <!-- <div *ngIf="sidenav.opened"> -->
+      <div class="navbar-logo">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    <!-- </div> -->
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1>The Ticketing System</h1>
+  </mat-toolbar>
+
+  <div>
+    <mat-sidenav-container class="main">
+      <mat-sidenav class="the-dark-theme" #sidenav [mode]="'side'">
+        <mat-nav-list>
+          <div *ngIf="isLoggedIn()" color="accent">
+            <a mat-list-item routerLink="{{nav.routerLink}}" *ngFor="let nav of loggedInNav">{{nav.name}}</a>
+            <a mat-list-item routerLink="." (click)="logout()">Log Out</a>
+          </div>
+          <div *ngIf="!isLoggedIn()">
+            <a mat-list-item routerLink="{{nav.routerLink}}" *ngFor="let nav of loggedOutNav">{{nav.name}}</a>
+            <a mat-list-item routerLink="." (click)="login()">Log In</a>
+          </div>
+        </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <div class="content">
+          <router-outlet></router-outlet>
+        </div>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<h1>Order History</h1>
+<div *ngIf="!noOrders else noContent">
+
+  <div class="order-history-container mat-elevation-z8">
+    <div class="order-history-loading-shade" *ngIf="isLoadingResults">
+      <mat-spinner [@fadeInOut]></mat-spinner>
+    </div>
+
+    <mat-table #table [dataSource]="dataSource" class="order-history-table" matSort matSortActive="order" matSortDisableClear
+      matSortDirection="asc">
+
+
+      <ng-container matColumnDef="orderId">
+        <mat-header-cell *matHeaderCellDef>Order #</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{ row.orderId }}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="orderState">
+        <mat-header-cell *matHeaderCellDef>State</mat-header-cell>
+        <mat-cell  *matCellDef="let row">{{ row.orderState }}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="dateOpened">
+        <mat-header-cell *matHeaderCellDef>Created</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{ row.dateOpened | date: 'M/d/yy, h:mm a'}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="dateClosed">
+        <mat-header-cell *matHeaderCellDef>Closed</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{ row.dateClosed | date: 'M/d/yy, h:mm a'}}</mat-cell>
+      </ng-container>
+
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row appHightlight *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+    <mat-paginator [length]="resultsLength" [pageSize]="10">
+    </mat-paginator>
+  </div>
+</div>
+
+
+
+<ng-template #noContent>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h2 class="error">No Orders found</h2>
+    </div>
+  </div>
+</ng-template>

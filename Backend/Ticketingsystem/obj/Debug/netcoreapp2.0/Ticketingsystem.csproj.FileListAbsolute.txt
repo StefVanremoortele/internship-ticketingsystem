@@ -1,0 +1,47 @@
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.xml
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.deps.json
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.runtimeconfig.json
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.runtimeconfig.dev.json
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.AssemblyInfo.cs
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.csproj.CopyComplete
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DTO.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DTO.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.AssemblyInfo.cs
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.xml
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.deps.json
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.runtimeconfig.json
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.runtimeconfig.dev.json
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DTO.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.DTO.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.dll.config
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.csproj.CopyComplete
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem\obj\Debug\netcoreapp2.0\Ticketingsystem.pdb

@@ -1,0 +1,105 @@
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\Desktop\ticketingsystem\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\Desktop\BackEnd\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\Desktop\ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\source\repos\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\source\repos\Internship\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojAssemblyReference.cache
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\SVRBH92\source\repos\Ticketingsystem\backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojAssemblyReference.cache
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CopyComplete
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CopyComplete
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojAssemblyReference.cache

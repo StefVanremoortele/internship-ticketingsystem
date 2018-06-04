@@ -1,0 +1,14 @@
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Constants\bin\Debug\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Constants\bin\Debug\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Constants\bin\Debug\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\Ticketingsystem\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Constants\bin\Debug\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Constants\bin\Debug\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Constants\bin\Debug\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Constants\obj\Debug\Ticketingsystem.Constants.csprojAssemblyReference.cache

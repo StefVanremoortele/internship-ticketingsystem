@@ -1,0 +1,24 @@
+.countdown {
+  display: inline;
+  float: right;
+
+  .label {
+    text-align: right;
+  }
+
+  .measurements {
+    display: inline;
+
+    .divider {
+      display: inline;
+    }
+  }
+
+  .measurements-number {
+    display: inline;
+  }
+
+  .measurements-text {
+    display: inline;
+  }
+}

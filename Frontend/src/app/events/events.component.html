@@ -1,0 +1,28 @@
+<div id="title">
+  <h1>{{title}}</h1>
+</div>
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-sm-12 col-md-6 col-lg-3" *ngFor="let event of (events$ | async); let i = index">
+      <p class="life-container d-inline">
+        <mat-card class="event-card" [@fadeInOut]>
+          <mat-card-header>
+            <div mat-card-avatar class="event-header-image"></div>
+            <mat-card-title>{{(event)['name']}}</mat-card-title>
+            <mat-card-subtitle>Starts: {{event['start'] | date | uppercase}}</mat-card-subtitle>
+            <mat-card-subtitle>Ends: {{event['start'] | date | uppercase}}</mat-card-subtitle>
+          </mat-card-header>
+        <mat-card-content>
+          <p>
+            {{event['description']}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button class="btn btn-warning" (click)="showTickets(event)">Tickets</button>
+        </mat-card-actions>
+      </mat-card>
+    </p>
+  </div>
+</div>
+</div>

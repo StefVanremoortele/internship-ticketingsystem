@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+
+<style>
+    .dim
+    {
+        height:100%;
+        width:100%;
+        position:fixed;
+        left:0;
+        top:0;
+        z-index:100 !important;
+        background-color: #498F37; 
+    }
+    
+    .dim #waiting {
+        display:inline-block;
+        position: absolute;
+        width: 500px;
+        height: 100px;
+        top: 0; 
+        bottom: 0; 
+        left: 0; 
+        right: 0;
+        margin: auto;
+        color:white;
+    }
+</style>
+
+<body>
+    <div class="dim">
+        <h1 id="waiting">Silent renewing the client...</h1>
+    </div>        
+    <div id="error"></div>
+    <script src="assets/oidc-client.min.js"></script>
+    <script>
+         new UserManager().signinSilentCallback();
+    </script>
+</body>
+</html>

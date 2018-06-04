@@ -1,0 +1,148 @@
+<div id="title">
+  <h1>{{title}}</h1>
+</div>
+
+{{ errorMsg }}
+
+<h1>Hello!</h1><button (click)='doToast()'>click</button>
+
+
+<div class="container color-light">
+  <div class="row content">
+
+    <div *ngIf="cart$ | async; let cart">
+      <div *ngIf="cart else noCart">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="float-sm-left">
+              <p>Order #{{ cart.orderId }}</p>
+            </div>
+            <countdown divider=":" units="Minutes | Seconds" end="{{ expireDate }}"></countdown>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="">
+          <div class="col-sm-6 col-md-8 col-md-offset-0">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th></th>
+                  <th></th>
+                  <th class="text-center">Price</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let ticket of cart.tickets" [@fadeInOut]>
+                  <td class="col-sm-4 col-md-6">
+
+                    <div class="media">
+                      <div class="media-heading">
+                        <p>#{{ticket.ticketId}}</p>
+                      </div>
+
+                      <div class="media-body">
+                        <div>
+                          <p (click)="goToEvent(ticket.eventId)">Event: {{ ticket.eventName }}
+                          </p>
+
+                        </div>
+                        <span>Status: </span>
+                        <span class="text-success">
+                          <strong>{{ ticket.ticketStatus }}</strong>
+                        </span>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td class="chip">
+                    <div class="d-flex justify-content-center">
+
+                      <mat-chip-list layout-align="center center">
+                        <mat-chip color="primary" [style.background]="getTicketColor(ticket.ticketCategory.type)">{{ ticket.ticketCategory.type}}</mat-chip>
+                      </mat-chip-list>
+                    </div>
+                  </td>
+                  <td> </td>
+                  <td class="text-center">$ {{ ticket.ticketCategory.price }} </td>
+                  <td>
+                    <a class="delete-ticket" (click)="cancelTicket(ticket.ticketId) ">
+                      <i class="fa fa-trash fa-3x link-icon "></i>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <h5>Subtotal</h5>
+                  </td>
+                  <td class="text-right ">
+                    <h5>
+                      <strong>EUR {{ calculateSubTotal() | number : '1.2-2'}}</strong>
+                    </h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td>   </td>
+                  <td>   </td>
+                  <td>   </td>
+                  <td>
+                    <h5>BTW (21%)</h5>
+                  </td>
+                  <td class="text-right ">
+                    <h5>
+                      <strong>EUR {{ calculateBtw() | number : '1.2-2'}}</strong>
+                    </h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td>   </td>
+                  <td>   </td>
+                  <td>   </td>
+                  <td>
+                    <h3>Total</h3>
+                  </td>
+                  <td class="text-right ">
+                    <h3>
+                      <strong>EUR {{ calculateTotal() | number : '1.2-2' }}</strong>
+                    </h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>   </td>
+                  <td>   </td>
+                  <td>
+                    <button type="button " class="btn btn-default " (click)="continueShopping() ">
+                      <span class="glyphicon glyphicon-shopping-cart "></span> Continue Shopping
+                    </button>
+                  </td>
+                  <td>
+                    <button type="button " class="btn btn-warning " (click)="cancelCart() ">
+                      Cancel
+                      <span class="glyphicon glyphicon-play "></span>
+                    </button>
+                  </td>
+                  <td>
+                    <button type="button " class="btn btn-success " (click)="complete() ">
+                      Checkout
+                      <span class="glyphicon glyphicon-play "></span>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <ng-template #noCart>
+      <p>Please order some tickets first...</p>
+    </ng-template>
+
+  </div>
+</div>

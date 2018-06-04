@@ -1,0 +1,45 @@
+<!-- Event details -->
+<div class="container">
+  <div class="row" *ngIf="!errorMsg else error">
+    <div class="col-sm-12" *ngIf="!loading">
+      <div *ngIf="event$ | async; let event else noContent">
+        <div *ngIf="event else noContent">
+          <h1>Event: {{ event.name }}</h1>
+          <p>{{ event.description }}</p>
+          <p>Start: {{ event.start | date }}</p>
+          <p>End: {{ event.end | date }}</p>
+        </div>
+        <div class="" *ngIf="stock; else noContent ">
+          <mat-tab-group>
+            <div class="col-sm-12" *ngFor="let availableStock of stock | available">
+              <mat-tab label="{{availableStock.ticketType}}">
+                <app-event-ticket-details (errorMsg)="setErrorMsg($event)" [stock]="availableStock" [event]="event">Loading...</app-event-ticket-details>
+              </mat-tab>
+            </div>
+          </mat-tab-group>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="btnBack" color="primary">
+  <button class="btn btn-default btn-sm" (click)="goback()">Back</button>
+</div>
+
+
+<ng-template #noContent>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <p>No content found</p>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #error>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h2 class="error">{{errorMsg}}</h2>
+    </div>
+  </div>
+</ng-template>

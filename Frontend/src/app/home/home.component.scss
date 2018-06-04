@@ -1,0 +1,63 @@
+
+// #title {
+//   font: palanquin;
+//   float: left;
+//   display: block;
+//   h1 {
+//     background-color: #424242;
+//     padding: 3px;
+//   }
+// }
+
+
+// .container{
+//   font: palanquin;
+//   position: relative;
+//   color: white;
+//   margin-top: 2em;
+//   padding-left: 1.3em;
+//   margin-left: 5px;
+//   bottom: 0;
+//   height: 100%;
+// }
+
+@font-face {
+  font-family: palanquin;
+  src: url("../../assets/fonts/palanquin/palanquin-light.ttf");
+}
+
+.toast-custom {
+  background-color: blue;
+  float: right;
+}
+
+#title {
+  float: left;
+  background-color: #424242;
+  padding: 3px;
+  font: palanquin;
+  h1 {
+    font-size: 25px;
+    // color: #424242;
+  }
+}
+
+.content{
+  display:inline;
+  font: palanquin;
+}
+
+.container {
+  font: palanquin;
+  padding-top: 100px;
+  grid-template-columns: 100% auto;
+}
+.col {
+  padding: .4em 1.3em;
+}
+
+
+
+.col p {
+  display: inline;
+}

@@ -1,0 +1,35 @@
+
+<section id="ticket" class="card" *ngIf="!loading else processingReservation" [style.background]="setTicketColor()">
+  <div class="container-fluid">
+    <div class="card-block" >
+      <div class="details">
+        <h3 class="card-title">
+          <span> Type: {{ ticketDetails.ticketType }}</span>
+          <br/>
+          <span> EUR {{ ticketDetails.price }}</span>
+          <br/>
+
+        </h3>
+        <p class="card-block">
+          <span>Amount left: {{ amountOfAvailableTickets }}</span>
+        </p>
+      </div>
+      <div class="float-sm-right">
+        <input [(ngModel)]="amount" value=1 name="amount" step="1" type="number" min="1" max="10" />
+        <button type="button" class="btn btn-primary float-sm-right" (click)="reserveTicketByType(ticketDetails.ticketType, amount)">Add to cart</button>
+      </div>
+    </div>
+  </div>
+<h1>Hello!</h1><button (click)='doToast()'>click</button>
+
+</section>
+
+<ng-template #processingReservation>
+  <div class="text-center">
+    <mat-progress-spinner style="margin:0 auto;"  mode="indeterminate" color="accent"></mat-progress-spinner>
+    <p>
+      <span>Processing reservation...</span>
+    </p>
+  </div>
+</ng-template>
+

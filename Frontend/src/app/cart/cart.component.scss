@@ -1,0 +1,77 @@
+.orderInfo {
+  display: block;
+}
+
+.orderInfo p {
+  display: block;
+}
+
+// Mixin itself
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+// Usage as a mixin
+.element {
+  @include clearfix;
+}
+
+.delete-ticket .fa-trash {
+  color: green;
+}
+
+.delete-ticket .fa-trash:hover {
+  color: red;
+}
+
+.media-heading {
+  color: goldenrod;
+  padding-top: 4px;
+  font-size: 1em;
+  writing-mode: tb-rl;
+}
+
+.type-label {
+  font-size: 13px;
+  padding: 3px;
+}
+
+// Usage as a mixin
+.element {
+  @include clearfix;
+}
+
+.delete-ticket .fa-trash {
+  color: green;
+}
+
+.delete-ticket .fa-trash:hover {
+  color: red;
+}
+
+.media-heading {
+  color: goldenrod;
+  padding-top: 4px;
+  font-size: 1em;
+  writing-mode: tb-rl;
+}
+
+.type-label {
+  font-size: 13px;
+  padding: 3px;
+}
+
+.media-body {
+  display: inline;
+  p {
+    display: inline;
+  }
+}
+
+mat-chip-list{
+  margin-left: 3em;
+}

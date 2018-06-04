@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Marvin.Cache.Headers" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.5" />
+    <PackageReference Include="Microsoft.Net.Http.Headers" Version="2.0.3" />
+    <PackageReference Include="Quartz" Version="3.0.4" />
+    <PackageReference Include="Quartz.Serialization.Json" Version="3.0.4" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ticketingsystem.Constants\Ticketingsystem.Constants.csproj" />
+    <ProjectReference Include="..\Ticketingsystem.Domain\Ticketingsystem.Domain.csproj" />
+    <ProjectReference Include="..\Ticketingsystem.Logging\Ticketingsystem.Logging.csproj" />
+  </ItemGroup>
+
+</Project>

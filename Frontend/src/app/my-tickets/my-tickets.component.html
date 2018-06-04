@@ -1,0 +1,25 @@
+<h1>My Tickets</h1>
+
+<div *ngIf="boughtTickets$ | async; let boughtTickets else noTickets">
+
+  <mat-list dense>
+    <mat-list-item *ngFor="let ticket of boughtTickets">
+      <p mat-line>Ticket #{{ ticket.ticketId }}</p>
+      <p mat-line>Ticket #{{ ticket.ticketStatus }}</p>
+      <p mat-line>Ticket #{{ ticket.ticketCategory.type }}</p>
+      <!-- <p mat-line>Ticket {{ ticket | json }}</p> -->
+      <p mat-line>Ticket #{{ ticket.ticketCategory.price }}</p>
+
+    </mat-list-item>
+  </mat-list>
+
+  <div>s
+    <button type="button" class="btn btn-primary" (click)="goback()">Back</button>
+  </div>
+</div>
+
+<ng-template #noTickets>
+  <p>No tickets bought yet</p>
+  <p>Go to
+    <a routerLink="/events">events</a> and buy yourself some tickets first</p>
+</ng-template>

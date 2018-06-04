@@ -1,0 +1,70 @@
+
+#title {
+  float: left;
+  h1 {
+    background-color: #424242;
+    padding: 3px;
+  }
+}
+
+
+.event-detail{
+  border: 1px solid black;
+  display: inline;
+}
+.content{
+  display:inline;
+}
+.item{
+  display: inline;
+}
+.event-card {
+  margin-bottom: 10px;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.event-header-image {
+  background-image: url('http://www.wellesleysocietyofartists.org/wp-content/uploads/2015/11/image-not-found.jpg');
+  background-size: cover;
+}
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+.col {
+  padding: .4em 1.3em;
+}
+
+input.txt {
+  border: 0;
+  padding: 1em;
+  width: 80%;
+  margin-bottom: 2em;
+}
+input.btn {
+  border: 0;
+  display:block;
+  padding:1em 3em;
+  background:#A5F883;
+  color:#003A61;
+  margin-bottom:1em;
+  cursor:pointer;
+}
+
+.block {
+  background: #eee;
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.col p {
+  display: inline;
+}

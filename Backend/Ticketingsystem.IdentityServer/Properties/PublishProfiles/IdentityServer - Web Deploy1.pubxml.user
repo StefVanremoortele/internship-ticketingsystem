@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmWCVLzlfkCNRsrs1pXR0AAAAAACAAAAAAAQZgAAAAEAACAAAAAuRUweJ0UlOf68T9QyKrNVSNLDbjnN/xCGmhpCUBAJpAAAAAAOgAAAAAIAACAAAADYXEkP3OdW2wba5yh2Tm9g3LpIJHox5XMtynLTCCaPSTAAAACiwRjbczNvqdZNIeNxiWuXTJjuVCe8+OL5xdfD1WBvIUVLo23a7cNljAhAdA0Ya+lAAAAAsKp4LBzmHHuUmmIqp9FWx2tQNLprCjvSkHnHMTSq85xvF0opYQxZCd+a8ubJdXYX4kAojXAThewCppWDVifd7A==</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AzureConnection">
+      <Value>Data Source=tcp:ticketingsystem-db.westeurope.cloudapp.azure.com,1433;Initial Catalog=TicketingDbIdsrv;User ID=azureuser;Password=TicketingVMPass123$</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

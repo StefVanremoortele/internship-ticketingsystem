@@ -1,0 +1,170 @@
+
+
+.header{
+  height: 4em;
+  padding-left: 50px;
+  button {
+    outline: 0 !important;
+  }
+}
+
+.main {
+  position: absolute;
+  top: 4em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.content {
+  padding-top: 1.3em;
+  padding-left: 1.7em;
+}
+
+
+
+#title {
+  float: left;
+  background-color: #424242;
+  padding: 3px;
+  font: palanquin;
+  h1 {
+    font-size: 25px;
+    // color: #424242;
+  }
+}
+
+
+mat-sidenav {
+  padding-top: 1.7em;
+  min-width: 9em;
+  border-top: 1px solid #b5cc02;
+}
+
+mat-nav-list a {
+  padding-left: 1.5em;
+
+}
+
+mat-nav-list a:hover {
+  // TODO
+  color: #b5cc02;
+}
+
+mat-sidenav-content {
+}
+
+#toast-container.toast-top-center {
+  color: green;
+  color: pink;
+  background: #b5cc02;
+}
+
+.toast-warning {
+  color: pink;
+  background: #b5cc02;
+
+}
+// * {
+//   padding:0;
+//   margin:0;
+// }
+
+// html, body {
+//   height:100%;
+//   display:flex;
+//   flex-direction:column;
+// }
+
+// body > * {
+//   flex-shrink: 0;
+// }
+
+// .content {
+//   flex-grow: 1;
+// }
+
+
+
+
+// spinning logo
+.navbar-logo {
+  position: relative;
+  margin-right: 20px;
+  width: 35px;
+  height: 35px;
+  z-index: 100;
+  top: 15%;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg) linear;
+  box-shadow: 8px 8px #33691E;
+}
+
+
+.navbar-logo .sk-cube {
+  background: #b5cc02;
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.navbar-logo .sk-cube:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation-duration: 13s;
+  animation-delay: 5s;
+}
+
+.navbar-logo .sk-cube2 {
+  background-color: #88bd25;
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
+}
+
+.navbar-logo .sk-cube3 {
+  background-color: #b5cc02;
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
+
+}
+
+.navbar-logo .sk-cube4 {
+  background-color: #88bd25;
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
+}
+
+.navbar-logo .sk-cube1:before {
+  background-color: #88bd25;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.11s;
+}
+
+.navbar-logo .sk-cube2:before {
+  background-color: #b5cc02;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.navbar-logo .sk-cube3:before {
+  background-color: #88bd25;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.navbar-logo .sk-cube4:before {
+  background-color: #b5cc02;
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}

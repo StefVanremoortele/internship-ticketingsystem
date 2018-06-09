@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ticketingsystem</name>
+    </assembly>
+    <members>
+        <member name="M:Ticketingsystem.Controllers.AccountController.Update(Ticketingsystem.DTO.Users.UserForUpdate)">
+            <summary>
+            Updates a user.
+            </summary>
+            <param name="userToUpdate">The user to update object</param>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="T:Ticketingsystem.Controllers.EventsController">
+            <summary>
+            The controller that handles all requests concerning events
+            </summary>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.EventsController.#ctor(Ticketingsystem.Domain.Interfaces.Services.IEventService)">
+            <summary>
+            The eventsController constructor
+            </summary>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.EventsController.GetEventsByPage(Ticketingsystem.Domain.Helpers.ResourceParameters)">
+            <summary>
+            Gets all Events.
+            </summary>
+            <returns>all events</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.EventsController.Get">
+            <summary>
+            Gets all Events.
+            </summary>
+            <returns>all events</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.EventsController.Get(System.Int32)">
+            <summary>
+            Gets a specific Event.
+            </summary>
+            <param name="eventId">The event ID</param>   
+            <returns>a specific event</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.EventsController.Create(Ticketingsystem.DTO.Events.EventForCreation)">
+            <summary>
+            Creates a new Event.
+            </summary>
+            <param name="eventToCreate">The new Event object</param>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="T:Ticketingsystem.Controllers.OrdersController">
+            <summary>
+            The controller that handles all requests concerning orders
+            </summary>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.OrdersController.#ctor(Ticketingsystem.Domain.Interfaces.Services.IOrderService,Ticketingsystem.Domain.Interfaces.Services.IUserService)">
+            <summary>
+            The ordersController constructor
+            </summary>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.OrdersController.GetCart">
+            <summary> 
+            Gets the current Cart from a user
+            </summary>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.OrdersController.GetOrderHistory">
+            <summary>
+            Gets all order history from a user
+            </summary>
+            <returns>http statuscode</returns>  
+        </member>
+        <member name="M:Ticketingsystem.Controllers.OrdersController.GetOrderHistoryByPage(Ticketingsystem.Domain.Helpers.ResourceParameters)">
+            <summary>
+            Gets all Order history from a user
+            </summary>
+            <returns>all order history</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.OrdersController.Complete(System.Int32)">
+            <summary>
+            Completes an order
+            </summary>
+            <param name="orderId">The order ID</param>
+            <returns>http statuscode</returns>  
+        </member>
+        <member name="M:Ticketingsystem.Controllers.OrdersController.Cancel(System.Int32)">
+            <summary>
+            Cancels an order
+            </summary>
+            <param name="orderId">The order ID</param>
+            <returns>http statuscode</returns>  
+        </member>
+        <member name="T:Ticketingsystem.Controllers.TicketsController">
+            <summary>
+            The controller that handles all requests concerning tickets
+            </summary>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.#ctor(Ticketingsystem.Domain.Interfaces.Services.ITicketService,Ticketingsystem.Domain.Interfaces.Services.IUserService,Ticketingsystem.Domain.Interfaces.Services.IEventService,Ticketingsystem.Domain.Interfaces.Services.IOrderService,Microsoft.AspNetCore.SignalR.IHubContext{Ticketingsystem.Core.StockHub},Quartz.IScheduler)">
+            <summary>
+            The ticketsController constructor
+            </summary>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.GetTicket(System.Int32)">
+            <summary>
+            Gets a specific Ticket.
+            </summary>
+            <param name="ticketId">The ticket ID</param>   
+            <returns>a specific ticket</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.GetTicketsForEventByPage(System.Int32,Ticketingsystem.Domain.Helpers.TicketsResourceParameters)">
+            <summary>
+            Gets all tickets for a specific event by page
+            </summary>
+            <param name="eventId">The event ID</param>
+            <param name="ticketsResourceParameters">Optional parameters</param>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.GetTicketsForEvent(System.Int32)">
+            <summary>
+            Gets all tickets for a specific event.
+            </summary>
+            <param name="eventId">The event ID</param>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.GetHistory(System.Int32)">
+            <summary>
+            Gets history of a specific Ticket.
+            </summary>
+            <param name = "ticketId" > The ticket ID</param>   
+            <returns>a specific ticket</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.GetTicketsFromOrder(System.Int32)">
+            <summary>
+            Gets all ticket from a specific order.
+            </summary>
+            <param name="orderId">The order ID</param>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.GetStock(System.Int32)">
+            <summary>
+            Gets the amount of tickets from a specific specific
+            </summary>
+            <param name="eventId">The event ID</param>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.GetBoughtTickets">
+            <summary>
+            Gets all bought tickets from a specific user.
+            </summary>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.Reserve(System.Int32,System.String,System.Int32)">
+            <summary>
+            Reserves tickets with a specific type
+            </summary>
+            <param name="eventId">The event ID</param>
+            <param name="ticketType">The ticket type</param>
+            <param name="amount">Amount of tickets to reserve</param>
+            <returns>http statuscode</returns>
+            
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.CancelTicket(System.Int32)">
+            <summary>
+            Cancels a specific ticket from an order
+            </summary>
+            <param name="userId">The user ID</param>
+            <param name="ticketId">The ticket ID</param>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.TicketsController.Get">
+            <summary>
+            Gets all ticket categories
+            </summary>
+            <returns>http statuscode</returns>
+        </member>
+        <member name="M:Ticketingsystem.Controllers.UsersController.TestQuartz">
+            <summary>
+            Gets all users.
+            </summary>
+            <returns>http statuscode</returns> 
+        </member>
+        <member name="M:Ticketingsystem.Controllers.UsersController.Get">
+            <summary>
+            Gets all users.
+            </summary>
+            <returns>http statuscode</returns> 
+        </member>
+        <member name="M:Ticketingsystem.Controllers.UsersController.Get(System.String)">
+            <summary>
+            Gets a specific user.
+            </summary>
+            <param name="userId">The user ID</param> 
+            <returns>a specific user</returns> 
+        </member>
+        <member name="M:Ticketingsystem.Controllers.UsersController.GetAllRoles">
+            <summary>
+            Gets all user roles
+            </summary>
+            <returns>a specific user</returns> 
+        </member>
+        <member name="M:Ticketingsystem.Filters.UserRegistrationFilter.OnAuthorizationAsync(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

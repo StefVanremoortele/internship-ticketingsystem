@@ -1,0 +1,2 @@
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Logging\obj\Release\Ticketingsystem.Logging.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Logging\obj\Release\Ticketingsystem.Logging.csproj.CoreCompileInputs.cache

@@ -1,0 +1,4 @@
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem\obj\Release\netcoreapp2.0\Ticketingsystem.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem\obj\Release\netcoreapp2.0\Ticketingsystem.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem\obj\Release\netcoreapp2.0\Ticketingsystem.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem\obj\Release\netcoreapp2.0\Ticketingsystem.AssemblyInfo.cs

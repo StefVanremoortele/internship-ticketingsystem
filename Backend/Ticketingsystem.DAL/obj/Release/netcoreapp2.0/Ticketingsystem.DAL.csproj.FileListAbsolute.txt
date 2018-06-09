@@ -48,3 +48,9 @@ C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.DAL\obj\Release\netc
 C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.csproj.CopyComplete
 C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.dll
 C:\Users\clyde\source\repos\Ticketingsystem\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.AssemblyInfo.cs
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Release\netcoreapp2.0\Ticketingsystem.DAL.pdb

@@ -36,6 +36,7 @@ import { AppConfig } from '../config/app.config';
 
 })
 export class OrderHistoryComponent implements AfterViewInit {
+  hasResults: boolean;
   title: String = "Order History";
   displayedColumns = ['orderId', 'orderState', 'dateOpened', 'dateClosed'];
   dataSource = new MatTableDataSource();
@@ -43,7 +44,6 @@ export class OrderHistoryComponent implements AfterViewInit {
   resultsLength = 0;
   isLoadingResults = false;
   isRateLimitReached = false;
-  noOrders: Boolean;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
@@ -75,9 +75,7 @@ export class OrderHistoryComponent implements AfterViewInit {
           this.isLoadingResults = false;
           this.isRateLimitReached = false;
           this.resultsLength = data.total_count;
-          if (data.orders === null) {
-            this.noOrders = true;
-          }
+          
           return data.orders;
         }),
         catchError(() => {
@@ -87,7 +85,7 @@ export class OrderHistoryComponent implements AfterViewInit {
           return observableOf([]);
         })
       )
-      .subscribe((data: Order[]) => (this.dataSource.data = data));
+      .subscribe((data: Order[]) => {(this.dataSource.data = data); this.resultsLength == 0 ? this.hasResults = false : this.hasResults = true;});
     this.cd.detectChanges();
 
   }
@@ -96,7 +94,7 @@ export class OrderHistoryComponent implements AfterViewInit {
     order: string,
     page: number
   ): Observable<any> {
-    return this.orderService.getOrderHistoryFromUserByPage(this.authService.Get().profile.sub, (page + 1));
+    return this.orderService.getOrderHistoryFromUserByPage(this.authService.Get().profile.sub, (page));
   }
 
   goback() {

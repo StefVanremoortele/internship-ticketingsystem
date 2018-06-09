@@ -2,9 +2,9 @@
   <h1>{{title}}</h1>
 </div>
 
-<div *ngIf="!noOrders else noContent">
 
-  <div class="order-history-container mat-elevation-z8">
+<div class="order-history-container mat-elevation-z8">
+  <div *ngIf="hasResults else noContent">
     <div class="order-history-loading-shade" *ngIf="isLoadingResults">
       <mat-spinner [@fadeInOut]></mat-spinner>
     </div>
@@ -42,8 +42,6 @@
   </div>
 </div>
 
-
-
 <ng-template #noContent>
   <div class="row">
     <div class="col-sm-12 text-center">
@@ -51,3 +49,5 @@
     </div>
   </div>
 </ng-template>
+
+

@@ -21,10 +21,8 @@ import { AuthService } from './authentication.service';
 export class OrderService {
   private accountEndpoint = AppConfig.endpoints['account'];
   private ordersEndpoint = AppConfig.endpoints['orders'];
-  private headers: HttpHeaders;
 
   constructor(private http: HttpClient, private authService: AuthService) {
-    this.headers = new HttpHeaders({ 'Content-Type': 'application/json' });
   }
 
   getCartFromUser(userId: string): Observable<Order> {

@@ -43,14 +43,13 @@ export class TicketService {
   }
 
   getBoughtTicketsFromUser(userId: string): Observable<Ticket[]> {
-    return this.authService
-      .AuthGet(
+    return this.http.get(
         this.accountEndpoint + '/tickets',
       )
       .pipe(
         map(
-          response => {
-            return response.body;
+          (response: Ticket[]) => {
+            return response;
           })
       );
   }

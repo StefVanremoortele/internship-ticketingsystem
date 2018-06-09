@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges, SimpleChanges, AfterViewChecked, AfterContentChecked } from '@angular/core';
 import { UserService } from '../../shared/services';
 import { ApplicationUser } from '../../shared/models';
 
@@ -7,19 +7,25 @@ import { ApplicationUser } from '../../shared/models';
   templateUrl: './users.component.html',
   styleUrls: ['./users.component.css']
 })
-export class UsersComponent implements OnInit {
-
+export class UsersComponent implements OnInit, AfterContentChecked {
   users: ApplicationUser[];
 
   constructor(private userService: UserService) { }
 
   ngOnInit() {
+    this.loadUsers();
+  }
+
+  loadUsers() {
     this.userService.getAll().subscribe((users: any) => {
-    this.users = users;
-    
-      console.log(this.users);
+      this.users = users;
     })
   }
+
+  ngAfterContentChecked(): void {
+    this.loadUsers();
+  }
+
   showInfo() {
     // not implemented
   }

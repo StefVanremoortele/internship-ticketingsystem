@@ -42,10 +42,7 @@ export class MyTicketsComponent implements OnInit {
   goback() {
     this.location.back();
   }
-
-  hasBoughtTickets() {
-    return this.boughtTickets.length > 0;
-  }
-
-
 }
+
+
+

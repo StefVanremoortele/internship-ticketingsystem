@@ -4,8 +4,7 @@
 <div class="container">
   <div class="row" *ngIf="boughtTickets$ | async; let boughtTickets">
     <div class="col-sm-12">
-
-      <div *ngIf="hasBoughtTickets(); else noTickets">
+      <div *ngIf="boughtTickets.length > 0 else noTickets">
 
         <mat-list dense>
           <mat-list-item *ngFor="let ticket of boughtTickets">
@@ -17,12 +16,13 @@
           </mat-list-item>
         </mat-list>
       </div>
+      <!-- <div>
+        <button type="button" class="btn btn-primary" (click)="goback()">Back</button>
+      </div> -->
     </div>
-
-    <div>
-      <button type="button" class="btn btn-primary" (click)="goback()">Back</button>
     </div>
   </div>
+
 
   <ng-template #noTickets>
     <div class="row">
@@ -32,10 +32,8 @@
           <a routerLink="/events">events</a> and buy yourself some tickets first</p>
       </div>
     </div>
-
-    <div>
-      <button type="button" class="btn btn-primary" (click)="goback()">Back</button>
-    </div>
   </ng-template>
-
+  
+<div>
+  <button type="button back-btn" class="btn btn-primary" (click)="goback()">Back</button>
 </div>

@@ -16,7 +16,6 @@ namespace Ticketingsystem.App_Start
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
-            builder.RegisterType<QuartzService>().As<IQuartzService>().InstancePerLifetimeScope();
             builder.RegisterType<EventService>().As<IEventService>().InstancePerLifetimeScope();
             builder.RegisterType<DbInitializer>().As<IDatabaseInitializer>().InstancePerLifetimeScope();
             builder.RegisterType<OrderService>().As<IOrderService>().InstancePerLifetimeScope();

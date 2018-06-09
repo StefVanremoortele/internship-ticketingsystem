@@ -13584,11 +13584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.IdentityServer\\Ticketingsystem.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.IdentityServer\\Ticketingsystem.IdentityServer.csproj",
       "projectName": "Ticketingsystem.IdentityServer",
-      "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.IdentityServer\\Ticketingsystem.IdentityServer.csproj",
+      "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.IdentityServer\\Ticketingsystem.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.IdentityServer\\obj\\",
+      "outputPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13607,8 +13607,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj": {
-              "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj"
+            "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj": {
+              "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj"
             }
           }
         }

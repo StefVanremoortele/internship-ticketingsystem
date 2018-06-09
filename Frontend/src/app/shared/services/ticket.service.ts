@@ -8,7 +8,7 @@ import { ReplaySubject } from 'rxjs/ReplaySubject';
 import { distinctUntilChanged, map } from 'rxjs/operators';
 
 import { AuthService } from '../../shared/services/authentication.service';
-import { User, Ticket } from '../models';
+import { Ticket } from '../models';
 import { AppConfig } from './../../config/app.config';
 import { HttpError } from '..';
 
@@ -43,14 +43,13 @@ export class TicketService {
   }
 
   getBoughtTicketsFromUser(userId: string): Observable<Ticket[]> {
-    return this.authService
-      .AuthGet(
-        this.accountEndpoint + '/tickets', true
+    return this.http.get(
+        this.accountEndpoint + '/tickets',
       )
       .pipe(
         map(
-          response => {
-            return response.body;
+          (response: Ticket[]) => {
+            return response;
           })
       );
   }
@@ -102,8 +101,7 @@ export class TicketService {
         '/tickets/reserve?ticketType=' +
         type +
         '&amount=' +
-        amount,
-      true
+        amount
     );
   }
 

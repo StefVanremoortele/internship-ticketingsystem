@@ -97,7 +97,7 @@ namespace Ticketingsystem.DAL.Services
                 cart = new Order { UserId = userId };
                 _unitOfWork.Orders.Add(cart);
 
-                QuartzServicesUtilities.StartJob<CartExpireJob>(_quartzScheduler, new TimeSpan(0, 0, 5, 0), userId);
+                QuartzServicesUtilities.StartJob<CartExpireJob>(_quartzScheduler, new TimeSpan(0, 0, 15, 0), userId);
             }
 
 

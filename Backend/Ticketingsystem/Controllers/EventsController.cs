@@ -17,7 +17,6 @@ using Ticketingsystem.Logging;
 
 namespace Ticketingsystem.Controllers
 {
-
     /// <summary>
     /// The controller that handles all requests concerning events
     /// </summary>
@@ -25,8 +24,6 @@ namespace Ticketingsystem.Controllers
     public class EventsController : Controller
     {
         private readonly IEventService _eventService;
-        //private readonly IScheduler _scheduler;
-
 
         /// <summary>
         /// The eventsController constructor
@@ -107,10 +104,10 @@ namespace Ticketingsystem.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError);
 
             if (result.Status == RepositoryActionStatus.NotFound)
-                return StatusCode(StatusCodes.Status404NotFound);
+                return NotFound(StatusCodes.Status404NotFound);
 
-            var eventToReturn = Mapper.Map<Ticketingsystem.DTO.Events.Event>(result.Entity);
-            return CreatedAtRoute("GetEvent", new { eventId = eventToReturn.EventId }, eventToReturn);
+            var eventToReturn = Mapper.Map<DTO.Events.Event>(result.Entity);
+            return StatusCode(StatusCodes.Status200OK, eventToReturn);
         }
 
 

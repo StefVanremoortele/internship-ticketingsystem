@@ -5,5 +5,5 @@ export * from "./order.service";
 export * from "./ticket.service";
 export * from "./user.service";
 export * from "./signalR.service";
-export * from "./data.service";
 export * from "./animations";
+export * from "./toast.service";

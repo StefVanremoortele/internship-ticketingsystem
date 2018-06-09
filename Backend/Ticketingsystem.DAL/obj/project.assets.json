@@ -6596,11 +6596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj",
       "projectName": "Ticketingsystem.DAL",
-      "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj",
+      "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj",
       "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DAL\\obj\\",
+      "outputPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6619,14 +6619,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj": {
-              "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj"
+            "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj": {
+              "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Constants\\Ticketingsystem.Constants.csproj"
             },
-            "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj"
+            "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj"
             },
-            "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Logging\\Ticketingsystem.Logging.csproj": {
-              "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Logging\\Ticketingsystem.Logging.csproj"
+            "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Logging\\Ticketingsystem.Logging.csproj": {
+              "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Logging\\Ticketingsystem.Logging.csproj"
             }
           }
         }

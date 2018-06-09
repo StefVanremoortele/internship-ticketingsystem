@@ -1,0 +1,83 @@
+<div *ngIf="!isSaving else showLoader">
+
+  <div ng-if="user">
+    <h3>User Profile <span *ngIf="isEditMode">(edit)</span></h3>
+    
+    <form>
+      <div class="form-group profile">
+        
+        
+        <!-- id  -->
+        <!-- <label for="id">userId</label>
+        <div *ngIf="!isEditMode">
+          <p class="form-control-static">{{ user.userId ? user.userId : 'no userId'}}</p>
+        </div>
+        <div *ngIf="isEditMode">
+          <input type="hidden" autofocus type="text" attr.userId="" name="userId" placeholder="userId" class="form-control" [(ngModel)]="user.userId" />
+        </div> -->
+        
+        <!-- email  -->
+        <label for="email">Email</label>
+        <div *ngIf="!isEditMode">
+          <p class="form-control-static">{{ user.email ? user.email : 'no email' }}</p>
+        </div>
+        <div *ngIf="isEditMode">
+          
+          <input autofocus type="text" attr.id="email" name="email" placeholder="email" class="form-control" [(ngModel)]="user.email" />
+        </div>
+        
+        <!-- firstname -->
+        <label for="firstname">Firstname</label>
+        <div *ngIf="!isEditMode">
+          <p class="form-control-static">{{ user.firstname ? user.firstname : 'no firstname'}}</p>
+        </div>
+        <div *ngIf="isEditMode">
+          <input autofocus type="text" attr.id="firstname" name="firstname" placeholder="first name" class="form-control" [(ngModel)]="user.firstname"
+          />
+        </div>
+        
+        <!-- lastname -->
+        <label for="lastname">Lastname</label>
+        <div *ngIf="!isEditMode">
+          <p class="form-control-static">{{ user.lastname ? user.lastname : 'no lastname'}}</p>
+        </div>
+        <div *ngIf="isEditMode">
+          <input autofocus type="text" attr.id="lastname" name="lastname" placeholder="last name" class="form-control" [(ngModel)]="user.lastname"
+          />
+        </div>
+        
+        <!-- username -->
+        <label for="username">Username</label>
+        <div *ngIf="!isEditMode">
+          <p class="form-control-static">{{user.username ? user.username : 'no username'}}</p>
+        </div>
+        <div *ngIf="isEditMode">
+          <input autofocus type="text" attr.id="username" name="username" placeholder="username" class="form-control" [(ngModel)]="user.username"
+          />
+        </div>
+        
+      </div>
+      
+      <div *ngIf="isEditMode">
+        <button class='btn btn-warning' (click)="cancel()">Cancel</button>
+        <button class='btn btn-success' (click)="save()">Save</button>
+      </div>
+      
+      <div *ngIf="!isEditMode">
+        <button class='btn btn-info' (click)="edit()">Edit</button>
+      </div>
+      
+    </form>
+  </div>
+  <h3> {{ someError }} </h3>
+</div>
+
+<ng-template #showLoader>
+  <div class="text-center">
+    <mat-progress-spinner style="margin:0 auto;"  mode="indeterminate" color="accent"></mat-progress-spinner>
+    <p>
+      <span>Saving userdata</span>
+    </p>
+  </div>
+</ng-template>
+

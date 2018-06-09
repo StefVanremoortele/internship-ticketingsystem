@@ -4,11 +4,11 @@ import {
   HttpInterceptor,
   HttpRequest,
   HttpResponse
-} from '@angular/common/http';
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import { HttpErrorResponse } from '@angular/common/http/src/response';
-import { GlobalErrorHandler } from './global-error-handler';
+} from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { Observable } from "rxjs/Observable";
+import { HttpErrorResponse } from "@angular/common/http/src/response";
+import { GlobalErrorHandler } from "./global-error-handler";
 
 @Injectable()
 export class HandleHttpErrorInterceptor implements HttpInterceptor {
@@ -19,6 +19,10 @@ export class HandleHttpErrorInterceptor implements HttpInterceptor {
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
     return next.handle(request).catch((error: HttpErrorResponse) => {
+      // if (error.status == 410)
+      // {
+      //   return Observable.of(new HttpResponse());
+      // }
       if (error.error instanceof Error) {
         // client-side or network error
         const errorToLog = `Http error (client/network). ${error.message}`;

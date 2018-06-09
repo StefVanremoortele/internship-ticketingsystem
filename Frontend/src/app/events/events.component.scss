@@ -1,70 +1,119 @@
+$cyan: #60daaa;
+$green: #0d8d43;
+$orange: #ff8a30;
+$red: #f45e61;
 
-#title {
-  float: left;
-  h1 {
-    background-color: #424242;
-    padding: 3px;
+
+
+//Colors;;
+
+.card {
+  
+  
+  mat-card-header {
+    background-color: rgba(65, 65, 65, 0.311);
+  }
+  mat-card-content {
+    padding: 10px;
+    font-weight: 100;
+    font-size: 0.85;
+  }
+  mat-card-title{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 500; 
+    padding-top: 1.4em;
+    padding-left: 1.2em;
+  }
+  mat-card-subtitle {
+    text-align: center;
+  }
+  
+  mat-card-actions {
+    text-align: center;
+    z-index: 100;
+  }
+  
+  // Basic styles
+  min-width: 300px;
+  background: none;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  border-bottom: 1px solid $red;
+  // Using inset box-shadow instead of border for sizing simplicity
+  box-shadow: inset 0 0 0 2px $red;
+  font-size: inherit;
+  font-weight: 700;
+
+  // Required, since we're setting absolute on pseudo-elements
+  position: relative;
+  vertical-align: middle;
+  background-color: rgba(65, 65, 65, 0.311);
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
 }
 
+// Does not inherit
+.center {
+  &:hover {
+    background-color: rgba(65, 65, 65, 0.911);
+    .btn{
+      box-shadow: inset 0 0 0 2px $red;
+    }
+  }
 
-.event-detail{
-  border: 1px solid black;
-  display: inline;
-}
-.content{
-  display:inline;
-}
-.item{
-  display: inline;
-}
-.event-card {
-  margin-bottom: 10px;
-  min-width: 300px;
-  max-width: 400px;
-}
+  // Set up base styles, we're going to scale instead of animating width/height
+  &::before,
+  &::after {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform-origin: center; // Ensure scaling is done from the center (expands outwards)
+  }
 
-.event-header-image {
-  background-image: url('http://www.wellesleysocietyofartists.org/wp-content/uploads/2015/11/image-not-found.jpg');
-  background-size: cover;
+  // scale3d(<scale-horizontal>, <scale-vertical>, <scale-depth>);
+  &::before {
+    border-top: 2px solid $red;
+    border-bottom: 2px solid $red;
+    transform: scale3d(0,1,1); // Shrink only width
+  }
+
+  &::after {
+    border-left: 2px solid $red;
+    border-right: 2px solid $red;
+    transform: scale3d(1,0,1); // Shrink only height
+  }
+
+  &:hover::before,
+  &:hover::after {
+    transform: scale3d(1,1,1); // Show full-size
+    transition: transform 0.5s;
+  }
 }
+.btn {
+  color: $red;
+  background: none;
+  margin: 1em;
+  padding: 1em 2em;
+  // Using inset box-shadow instead of border for sizing simplicity
+  font-size: inherit;
+  font-weight: 700;
 
-
-
-
-.container {
-  display: grid;
-  grid-template-columns: 50% auto;
+  // Required, since we're setting absolute on pseudo-elements
+  position: relative;
+  z-index: 100;
+  text-align: center;
 }
-.col {
-  padding: .4em 1.3em;
-}
-
-input.txt {
-  border: 0;
-  padding: 1em;
-  width: 80%;
-  margin-bottom: 2em;
-}
-input.btn {
-  border: 0;
-  display:block;
-  padding:1em 3em;
-  background:#A5F883;
-  color:#003A61;
-  margin-bottom:1em;
-  cursor:pointer;
-}
-
-.block {
-  background: #eee;
-  float: left;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin: 5px;
-}
-
-.col p {
-  display: inline;
+.btn:hover {
+  text-decoration-line: underline;
+  text-decoration-color: $red;
 }

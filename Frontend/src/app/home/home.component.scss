@@ -1,63 +1,50 @@
-
-// #title {
-//   font: palanquin;
-//   float: left;
-//   display: block;
-//   h1 {
-//     background-color: #424242;
-//     padding: 3px;
-//   }
-// }
-
-
-// .container{
-//   font: palanquin;
-//   position: relative;
-//   color: white;
-//   margin-top: 2em;
-//   padding-left: 1.3em;
-//   margin-left: 5px;
-//   bottom: 0;
-//   height: 100%;
-// }
-
-@font-face {
-  font-family: palanquin;
-  src: url("../../assets/fonts/palanquin/palanquin-light.ttf");
-}
-
-.toast-custom {
-  background-color: blue;
-  float: right;
-}
-
-#title {
-  float: left;
-  background-color: #424242;
-  padding: 3px;
-  font: palanquin;
-  h1 {
-    font-size: 25px;
-    // color: #424242;
+.content {
+  font-size: 1.1em;
+  margin-top: 13px;
+  text-align: center;
+  span {
+    color: #b5cc02;
+  }
+  .showcase-description {
+    vertical-align: bottom;
   }
 }
 
-.content{
-  display:inline;
-  font: palanquin;
+.product-info {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  bottom: 0;
+}
+img {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.desc {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 8px;
 }
 
-.container {
-  font: palanquin;
-  padding-top: 100px;
-  grid-template-columns: 100% auto;
+.signature {
+  margin-top: 35px;
+  float: right;
+  img {
+    opacity: 0.4;
+  }
+  span {
+    display: block;
+    margin-left: 8em;
+  }
 }
-.col {
-  padding: .4em 1.3em;
-}
 
+.product-info:last-of-type{
+  :last-child {
+    position: relative;
+    line-height: 3em;
+  }
 
-
-.col p {
-  display: inline;
 }

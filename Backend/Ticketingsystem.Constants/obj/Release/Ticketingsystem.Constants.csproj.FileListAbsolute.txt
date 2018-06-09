@@ -1,0 +1,7 @@
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Constants\bin\Release\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Constants\bin\Release\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Constants\bin\Release\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Constants\obj\Release\Ticketingsystem.Constants.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Constants\obj\Release\Ticketingsystem.Constants.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Constants\obj\Release\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Constants\obj\Release\Ticketingsystem.Constants.pdb

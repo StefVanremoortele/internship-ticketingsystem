@@ -48,12 +48,12 @@ export class EventDetailsComponent implements OnInit {
     this.userSub = this.authService.userLoadededEvent.subscribe(
       u => (this.currentUser = u)
     );
-    // redirect to authority if user isn't logged in
-    this.authService.isLoggedInObs().subscribe(flag => {
-      if (!flag) {
-        this.authService.startSigninMainWindow();
-      }
-    });
+    // // redirect to authority if user isn't logged in
+    // this.authService.isLoggedInObs().subscribe(flag => {
+    //   if (!flag) {
+    //     this.authService.startSigninMainWindow();
+    //   }
+    // });
   }
 
   ngOnInit(): void {

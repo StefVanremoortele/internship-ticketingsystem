@@ -43,9 +43,11 @@ namespace Ticketingsystem.Logging
                 CorrelationId = Activity.Current?.Id ?? context.TraceIdentifier,
                 AdditionalInfo = additionalInfo ?? new Dictionary<string, object>()
             };
-
-            GetUserData(detail, context);
-            GetRequestData(detail, context);
+            if (context != null)
+            {
+                GetUserData(detail, context);
+                GetRequestData(detail, context);
+            }
             // Session data??
             // Cookie data??
 

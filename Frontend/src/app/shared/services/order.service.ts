@@ -21,20 +21,17 @@ import { AuthService } from './authentication.service';
 export class OrderService {
   private accountEndpoint = AppConfig.endpoints['account'];
   private ordersEndpoint = AppConfig.endpoints['orders'];
-  private headers: HttpHeaders;
 
   constructor(private http: HttpClient, private authService: AuthService) {
-    this.headers = new HttpHeaders({ 'Content-Type': 'application/json' });
   }
 
   getCartFromUser(userId: string): Observable<Order> {
-    return this.authService
-      .AuthGet(this.accountEndpoint + '/cart', true)
-      // .AuthGet('http://localhost:5001/api/account/cart', true)
+    return this.http.get(this.accountEndpoint + '/cart')
       .pipe(
         map(
-          res => {
-            return res.body;
+        (res: Order) => {
+            console.log(res);
+            return res;
           },
           err => {
             return err;
@@ -45,7 +42,7 @@ export class OrderService {
 
   getOrderHistoryFromUser(userId: string): Observable<Order> {
     return this.authService
-      .AuthGet(this.accountEndpoint + '/orders/history', true)
+      .AuthGet(this.accountEndpoint + '/orders/history')
       .pipe(
         map(res => {
           return res.body;
@@ -70,8 +67,7 @@ export class OrderService {
   completeOrder(userId: string, orderId: string): Observable<Order> {
     return this.authService
       .AuthGet(
-        this.accountEndpoint + '/orders/' + orderId + '/complete',
-        true
+        this.accountEndpoint + '/orders/' + orderId + '/complete'
       )
       .pipe(
         map(
@@ -88,8 +84,7 @@ export class OrderService {
   cancelOrder(userId: string, orderId: string): Observable<Order> {
     return this.authService
       .AuthGet(
-        this.accountEndpoint + '/cart/cancel',
-        true
+        this.accountEndpoint + '/cart/cancel'
       )
       .pipe(
         map(res => {
@@ -107,9 +102,7 @@ export class OrderService {
         this.accountEndpoint +
           '/cart/tickets/' +
           ticketId +
-          '/cancel',
-        true
-      )
+          '/cancel')
       .pipe(
         map(res => {
           return res.body;

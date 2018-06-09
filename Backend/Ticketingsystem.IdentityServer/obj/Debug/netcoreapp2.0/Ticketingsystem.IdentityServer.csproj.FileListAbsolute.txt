@@ -159,3 +159,19 @@ C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.IdentityServer\obj
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.csproj.CopyComplete
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.dll
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.deps.json
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.runtimeconfig.json
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.runtimeconfig.dev.json
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.AssemblyInfo.cs
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.csproj.CopyComplete
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.IdentityServer\obj\Debug\netcoreapp2.0\Ticketingsystem.IdentityServer.pdb

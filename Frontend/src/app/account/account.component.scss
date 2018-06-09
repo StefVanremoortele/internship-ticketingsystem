@@ -1,50 +1,13 @@
-@font-face {
-  font-family: palanquin;
-  src: url("../../assets/fonts/palanquin/palanquindark-medium.ttf");
-}
 
-div {
-  font-family: palanquin;
-}
-
-
-.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
-
-small {
-display: block;
-line-height: 1.428571429;
-color: #999;
-}
-
-.profile .details{
-  p{
-    background-color: grey;
-    padding: 6px;
-  }
-}
-
-
-#title {
-  font: palanquin;
-  height: 53px;
-  // width: 850px;
-  background: #424242; /* For browsers that do not support gradients */
-  background:  linear-gradient(to right, #424242, rgba(255,0,0,0)); /* Standard syntax (must be last) */
-  h1 {
-    padding-left: 3em;
-  }
-}
 
 .container{
-  font: palanquin;
-  position: absolute;
   color: lightgray;
-  margin-top: 2em;
-  padding-left: 2em;
-  margin-left: 5px;
-  bottom: 0;
-  height: 100%;
-  border-left: 2px solid #424242;
 }
 
+.example-form{
+  width: 450px;
+}
 
+.content {
+  margin-top: 75px;
+}

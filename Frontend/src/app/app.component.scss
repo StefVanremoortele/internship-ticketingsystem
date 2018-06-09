@@ -16,23 +16,6 @@
   right: 0;
 }
 
-.content {
-  padding-top: 1.3em;
-  padding-left: 1.7em;
-}
-
-
-
-#title {
-  float: left;
-  background-color: #424242;
-  padding: 3px;
-  font: palanquin;
-  h1 {
-    font-size: 25px;
-    // color: #424242;
-  }
-}
 
 
 mat-sidenav {
@@ -52,6 +35,7 @@ mat-nav-list a:hover {
 }
 
 mat-sidenav-content {
+  z-index: 10000;
 }
 
 #toast-container.toast-top-center {
@@ -65,27 +49,6 @@ mat-sidenav-content {
   background: #b5cc02;
 
 }
-// * {
-//   padding:0;
-//   margin:0;
-// }
-
-// html, body {
-//   height:100%;
-//   display:flex;
-//   flex-direction:column;
-// }
-
-// body > * {
-//   flex-shrink: 0;
-// }
-
-// .content {
-//   flex-grow: 1;
-// }
-
-
-
 
 // spinning logo
 .navbar-logo {

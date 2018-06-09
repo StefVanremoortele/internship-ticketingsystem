@@ -9,7 +9,7 @@ using Quartz;
 using Quartz.Impl;
 using Quartz.Spi;
 using Ticketingsystem.Core;
-using Ticketingsystem.Utilities;
+using Ticketingsystem.DAL.Utilities;
 
 namespace Ticketingsystem.Helpers
 {

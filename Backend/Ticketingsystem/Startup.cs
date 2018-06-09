@@ -69,7 +69,7 @@ namespace Ticketingsystem
                     options.AddPolicy("administratorPolicy", adminPolicy =>
                     {
                         adminPolicy.RequireAuthenticatedUser();
-                        adminPolicy.RequireClaim("role", "Administrator");
+                        adminPolicy.RequireClaim("role", "administrator");
                     });
                     options.AddPolicy("customerPolicy", userPolicy =>
                     {
@@ -91,7 +91,7 @@ namespace Ticketingsystem
 
             // OLD DI SYSTEM
             // Services
-            services.AddScoped<IUnitOfWork, HttpUnitOfWork>()
+            services.AddScoped<IUnitOfWork, UnitOfWork>()
                 .AddScoped<IUserService, UserService>()
                 .AddScoped<IEventService, EventService>()
                 .AddScoped<IOrderService, OrderService>()

@@ -31,6 +31,9 @@ namespace Ticketingsystem.Helpers
                             opt => opt.MapFrom(t => t.Tickets)); ;
                 cfg.CreateMap<TicketCategory, DTO.TicketCategories.TicketCategory>();
                 cfg.CreateMap<Stock, DTO.Stock.Stock>();
+                cfg.CreateMap<UserType, DTO.Roles.Role>().ForMember(td => td.UserType,
+                            opt => opt.MapFrom(t => (UserType)t));
+
 
                 // DTO to Models
                 cfg.CreateMap<DTO.Events.EventForCreation, Event>();
@@ -44,6 +47,7 @@ namespace Ticketingsystem.Helpers
                 cfg.CreateMap<DTO.Orders.OrderForCreation, Order>();
                 cfg.CreateMap<DTO.TicketCategories.TicketCategory, TicketCategory>();
                 cfg.CreateMap<DTO.Stock.Stock, Stock>();
+                cfg.CreateMap<DTO.Users.UserForUpdate, User>();
 
             });
         }

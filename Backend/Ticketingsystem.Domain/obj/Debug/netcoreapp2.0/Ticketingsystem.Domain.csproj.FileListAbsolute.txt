@@ -103,3 +103,12 @@ C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\n
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.AssemblyInfo.cs
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\obj\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.deps.json
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.Domain\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb

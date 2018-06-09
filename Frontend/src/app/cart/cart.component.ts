@@ -96,17 +96,13 @@ export class CartComponent implements OnInit {
     this.cart$ = this.orderService
       .getCartFromUser(this.currentUser.profile.sub)
       .pipe(
-        map((res: Order) => {
+        map((res: Order) => {          
           this.amountOfItems = res.tickets.length;
           this.orderId = res.orderId;
           this.cart = res;
-          this.expireDate = new Date(res.dateOpened);
-          this.expireDate.setMinutes(this.expireDate.getMinutes() + 15);
-          this.expireDate.setHours(this.expireDate.getHours() + 2);
+          // this.expireDate = new Date(res.dateOpened.setMinutes(res.dateOpened.getMinutes() + 15));
+          // this.expireDate.setHours(this.expireDate.getHours() + 2); // TODO: fix general UTC times
           return res;
-        }),
-        catchError(err => {
-          return this.handleCartError(err);
         })
       );
   }
@@ -158,6 +154,28 @@ export class CartComponent implements OnInit {
     dataError.statusCode = error.status;
     dataError.message = error.statusText;
 
+    if (error.error.orderState.toLocaleLowerCase() === "complete") {
+      // tslint:disable-next-line:max-line-length
+      this.errorMsg =
+        "Your last order #" +
+        error.error.orderId +
+        " was completed on " +
+        new Date(error.error.dateClosed).toDateString() +
+        " at " +
+        new Date(error.error.dateClosed).toLocaleTimeString() +
+        ".";
+    }
+    if (error.error.orderState.toLocaleLowerCase() === "canceled") {
+      // tslint:disable-next-line:max-line-length
+      this.errorMsg =
+        "Your've canceled your last order #" +
+        error.error.orderId +
+        " on " +
+        new Date(error.error.dateClosed).toDateString() +
+        " at " +
+        new Date(error.error.dateClosed).toLocaleTimeString() +
+        ".";
+    }
     if (dataError.statusCode === 404) {
       this.errorMsg = "Please order some tickets first";
       if (error.error != null) {
@@ -174,28 +192,6 @@ export class CartComponent implements OnInit {
             ".";
         }
 
-        if (error.error.orderState.toLocaleLowerCase() === "complete") {
-          // tslint:disable-next-line:max-line-length
-          this.errorMsg =
-            "Your last order #" +
-            error.error.orderId +
-            " was completed on " +
-            new Date(error.error.dateClosed).toDateString() +
-            " at " +
-            new Date(error.error.dateClosed).toLocaleTimeString() +
-            ".";
-        }
-        if (error.error.orderState.toLocaleLowerCase() === "canceled") {
-          // tslint:disable-next-line:max-line-length
-          this.errorMsg =
-            "Your've canceled your last order #" +
-            error.error.orderId +
-            " on " +
-            new Date(error.error.dateClosed).toDateString() +
-            " at " +
-            new Date(error.error.dateClosed).toLocaleTimeString() +
-            ".";
-        }
       }
     }
 

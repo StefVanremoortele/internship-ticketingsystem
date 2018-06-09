@@ -10,6 +10,7 @@ import { User } from 'oidc-client';
 import { UserService, AuthService, EventService } from './shared/services/';
 import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 import { Subscription } from 'rxjs/Subscription';
+// import { ToastService } from './shared/services/toast.service';
 
 
 
@@ -26,11 +27,8 @@ export class AppComponent implements OnInit {
   loggedOutNav =  AppConfig.loggedOutRoutes;
 
   constructor(
-    private authService: AuthService,
-    public toastr: ToastsManager,
-    private vcr: ViewContainerRef) {
+    private authService: AuthService) {
 
-    this.toastr.setRootViewContainerRef(vcr);
   }
 
   ngOnInit() {
@@ -45,25 +43,13 @@ export class AppComponent implements OnInit {
   }
 
   login() {
-    this.popToast("Logging in...");
+    // this.toastService.popInfoToast("Logging in...", "Authentication alert");
     setTimeout(() => this.authService.startSigninMainWindow(), 1500);
   }
 
   logout() {
-    this.popToast("Logging out...");
+    // this.toastService.popInfoToast("Logging out...", "Authentication alert");
     setTimeout(() => this.authService.startSignoutMainWindow(), 1500);
   }
-
-  doToast() {
-    this.toastr.warning("Is Logged In? " + this.currentUser);
-  }
-
-  popToast(msg: string) {
-    this.toastr.warning(msg, 'Title', {
-      iconClass: 'toast-pink',
-      timeOut: 0,
-      extendedTimeOut: 0,
-      manageClass: 'toastr-custom'
-    });
-  }
+ 
 }

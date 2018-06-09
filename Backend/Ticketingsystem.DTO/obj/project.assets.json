@@ -6656,11 +6656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DTO\\Ticketingsystem.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DTO\\Ticketingsystem.DTO.csproj",
       "projectName": "Ticketingsystem.DTO",
-      "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DTO\\Ticketingsystem.DTO.csproj",
+      "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DTO\\Ticketingsystem.DTO.csproj",
       "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DTO\\obj\\",
+      "outputPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6679,8 +6679,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj": {
-              "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj"
+            "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj": {
+              "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.DAL\\Ticketingsystem.DAL.csproj"
             }
           }
         }

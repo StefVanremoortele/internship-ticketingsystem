@@ -30,6 +30,7 @@ namespace Ticketingsystem.DAL.Services
         {
             return await _unitOfWork.Orders.GetCart(userId);
         }
+
         public async Task<RepositoryActionResult<Order>> GetLastOrder(string userId)
         {
             return await _unitOfWork.Orders.GetLastOrder(userId);

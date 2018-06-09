@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
 
 namespace Ticketingsystem.Domain.Models
 {
@@ -16,6 +14,7 @@ namespace Ticketingsystem.Domain.Models
         [Required]
         [MaxLength(450)]
         public string UserId { get; set; }
+
         //[Required]
         public string FirstName { get; set; }
         //[Required]

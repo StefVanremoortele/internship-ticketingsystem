@@ -118,6 +118,8 @@ namespace Ticketingsystem.IdentityServer
                     AlwaysSendClientClaims = true,
                     AlwaysIncludeUserClaimsInIdToken = true,
 
+                    AccessTokenLifetime = 100000,
+
                     AllowedScopes =
                     {
                         IdentityServerConstants.StandardScopes.OpenId,

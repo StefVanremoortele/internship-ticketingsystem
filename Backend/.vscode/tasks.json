@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build api",
+      "group": "build",
+      "command": "dotnet",
+      "type": "process",
+      "presentation": {
+          "reveal": "silent"
+        },
+        "args": [
+            "build",
+            "${workspaceFolder}/Ticketingsystem/Ticketingsystem.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+    },
+    {
+        "label": "build idsrv",
+        "group": "build",
+        "command": "dotnet",
+        "type": "process",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "args": [
+        "build",
+        "${workspaceFolder}/Ticketingsystem.IdentityServer/Ticketingsystem.IdentityServer.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+    //   "group": {
+    //     "kind": "build",
+    //     "isDefault": true
+    //   }
+    }
+  ]
+}

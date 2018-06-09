@@ -4,6 +4,13 @@
         <name>Ticketingsystem</name>
     </assembly>
     <members>
+        <member name="M:Ticketingsystem.Controllers.AccountController.Update(Ticketingsystem.DTO.Users.UserForUpdate)">
+            <summary>
+            Updates a user.
+            </summary>
+            <param name="userToUpdate">The user to update object</param>
+            <returns>http statuscode</returns>
+        </member>
         <member name="T:Ticketingsystem.Controllers.EventsController">
             <summary>
             The controller that handles all requests concerning events
@@ -182,6 +189,12 @@
             Gets a specific user.
             </summary>
             <param name="userId">The user ID</param> 
+            <returns>a specific user</returns> 
+        </member>
+        <member name="M:Ticketingsystem.Controllers.UsersController.GetAllRoles">
+            <summary>
+            Gets all user roles
+            </summary>
             <returns>a specific user</returns> 
         </member>
         <member name="M:Ticketingsystem.Filters.UserRegistrationFilter.OnAuthorizationAsync(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)">

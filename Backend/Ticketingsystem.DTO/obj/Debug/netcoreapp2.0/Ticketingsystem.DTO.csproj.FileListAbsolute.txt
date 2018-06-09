@@ -215,3 +215,33 @@ C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DTO\obj\Debug\netc
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.csproj.CopyComplete
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.dll
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.DTO.deps.json
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.DTO.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.DTO.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Serilog.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Serilog.Sinks.File.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.dll.config
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Serilog.xml
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Serilog.Sinks.File.xml
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.AssemblyInfo.cs
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.csproj.CopyComplete
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DTO\obj\Debug\netcoreapp2.0\Ticketingsystem.DTO.pdb

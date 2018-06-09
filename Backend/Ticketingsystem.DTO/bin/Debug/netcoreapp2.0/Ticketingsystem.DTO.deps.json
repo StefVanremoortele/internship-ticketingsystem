@@ -1161,7 +1161,8 @@
           "Quartz.Serialization.Json": "3.0.4",
           "System.Linq.Dynamic.Core": "1.0.8.5",
           "Ticketingsystem.Constants": "1.0.0",
-          "Ticketingsystem.Domain": "1.0.0"
+          "Ticketingsystem.Domain": "1.0.0",
+          "Ticketingsystem.Logging": "1.0.0"
         },
         "runtime": {
           "Ticketingsystem.DAL.dll": {}
@@ -1176,6 +1177,11 @@
         },
         "runtime": {
           "Ticketingsystem.Domain.dll": {}
+        }
+      },
+      "Ticketingsystem.Logging/1.0.0": {
+        "runtime": {
+          "Ticketingsystem.Logging.dll": {}
         }
       }
     }
@@ -2023,6 +2029,11 @@
       "sha512": ""
     },
     "Ticketingsystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ticketingsystem.Logging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

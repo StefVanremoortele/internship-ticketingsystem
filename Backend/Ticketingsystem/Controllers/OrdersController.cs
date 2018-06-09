@@ -61,10 +61,10 @@ namespace Ticketingsystem.Controllers
 
             if (result.Status == RepositoryActionStatus.NotFound)
             {
-                RepositoryActionResult<Order> lastCartResult = await _orderService.GetLastOrder(userId);
-                var lastCart = Mapper.Map<DTO.Carts.Cart>(lastCartResult.Entity);
-                return StatusCode(StatusCodes.Status404NotFound, lastCart);
+                var lastOrderResult = await this._orderService.GetLastOrder(userId);
+                return StatusCode(StatusCodes.Status404NotFound, Mapper.Map<DTO.Carts.Cart>(lastOrderResult.Entity));
             }
+
 
             var cart = Mapper.Map<DTO.Carts.Cart>(result.Entity);
             

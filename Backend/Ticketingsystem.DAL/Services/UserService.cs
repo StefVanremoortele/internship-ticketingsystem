@@ -6,6 +6,7 @@ using Ticketingsystem.Domain.Helpers;
 using Ticketingsystem.Domain.Interfaces;
 using Ticketingsystem.Domain.Interfaces.Services;
 using Ticketingsystem.Domain.Models;
+using Ticketingsystem.Logging;
 
 namespace Ticketingsystem.DAL.Services
 {
@@ -30,6 +31,11 @@ namespace Ticketingsystem.DAL.Services
             return await _unitOfWork.Users.GetAllAsync();
         }
 
+        public async Task<RepositoryActionResult<IEnumerable<UserType>>> GetAllUserRoles()
+        {
+            return await _unitOfWork.Users.GetAllUserRoles();
+        }
+
         public async Task<User> RegisterUser(string userId, UserType userType)
         {
             try
@@ -51,9 +57,28 @@ namespace Ticketingsystem.DAL.Services
             }
         }
 
-        public Task<bool> UserExists(string id)
+        public async Task<bool> UserExists(string id)
         {
-            return _unitOfWork.Users.UserExists(id);
+            return await _unitOfWork.Users.UserExists(id);
+        }
+
+        public bool UpdateUser(User userToUpdate)
+        {
+            try
+            {
+                _unitOfWork.Users.Update(userToUpdate);
+
+                var res =  _unitOfWork.SaveChanges();
+
+                return res;
+            }
+            catch (Exception ex)
+            {
+                WebHelper.LogWebError("Users", "Ticketingsystem_DAL", ex, null);
+                throw ex;
+            }
         }
     }
+
+
 }

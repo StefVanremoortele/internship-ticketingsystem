@@ -11,8 +11,7 @@
           "Marvin.Cache.Headers": "1.1.0",
           "Quartz": "3.0.4",
           "Quartz.Serialization.Json": "3.0.4",
-          "System.Linq.Dynamic.Core": "1.0.8.5",
-          "Microsoft.Extensions.Identity.Stores": "2.0.3.0"
+          "System.Linq.Dynamic.Core": "1.0.8.5"
         },
         "runtime": {
           "Ticketingsystem.Domain.dll": {}
@@ -1095,11 +1094,6 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         }
-      },
-      "Microsoft.Extensions.Identity.Stores/2.0.3.0": {
-        "runtime": {
-          "Microsoft.Extensions.Identity.Stores.dll": {}
-        }
       }
     }
   },
@@ -1773,11 +1767,6 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Identity.Stores/2.0.3.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

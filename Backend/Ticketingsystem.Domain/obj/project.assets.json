@@ -6412,11 +6412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj",
       "projectName": "Ticketingsystem.Domain",
-      "projectPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj",
+      "projectPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Domain\\Ticketingsystem.Domain.csproj",
       "packagesPath": "C:\\Users\\clyde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\clyde\\Desktop\\Ticketingsystem - Copy\\Ticketingsystem.Domain\\obj\\",
+      "outputPath": "C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

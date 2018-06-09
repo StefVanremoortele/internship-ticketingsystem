@@ -10,5 +10,6 @@ namespace Ticketingsystem.Domain.Interfaces.Repository
         Task<bool> UserExists(string userId);
 
         Task<RepositoryActionResult<User>> GetUserById(string userId);
+        Task<RepositoryActionResult<IEnumerable<UserType>>> GetAllUserRoles();
     }
 }

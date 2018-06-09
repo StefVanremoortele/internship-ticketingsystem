@@ -13,8 +13,11 @@ namespace Ticketingsystem.Domain.Interfaces.Services
         Task<RepositoryActionResult<User>> GetUser(string userId);
 
         Task<RepositoryActionResult<IEnumerable<User>>> GetAllUsers();
+        Task<RepositoryActionResult<IEnumerable<UserType>>> GetAllUserRoles();
 
 
         Task<User> RegisterUser(string userId, UserType userType);
+
+        bool UpdateUser(User userToUpdate);
     }
 }

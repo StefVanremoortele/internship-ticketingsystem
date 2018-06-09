@@ -46,6 +46,29 @@ namespace Ticketingsystem.DAL.Repository
                 return new RepositoryActionResult<User>(null, RepositoryActionStatus.Error, ex);
             }
         }
-        
+
+        public async Task<RepositoryActionResult<IEnumerable<UserType>>> GetAllUserRoles()
+        {
+            try
+            {
+                //User user = await _ctx.Users.FirstOrDefaultAsync(u => u.UserId == userId);
+
+                var roles = await _ctx.Users
+                    .Select(u => u.UserType)
+                    .Distinct()
+                    .ToListAsync();
+
+                if (roles == null)
+                    return new RepositoryActionResult<IEnumerable<UserType>>(roles, RepositoryActionStatus.NotFound);
+                else
+                    return new RepositoryActionResult<IEnumerable<UserType>>(roles, RepositoryActionStatus.Ok);
+            }
+            catch (Exception ex)
+            {
+
+                return new RepositoryActionResult<IEnumerable<UserType>>(null, RepositoryActionStatus.Error, ex);
+            }
+        }
+
     }
 }

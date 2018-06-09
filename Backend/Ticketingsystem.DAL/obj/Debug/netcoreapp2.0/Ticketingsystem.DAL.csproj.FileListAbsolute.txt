@@ -187,3 +187,31 @@ C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DAL\obj\Debug\netc
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.csproj.CopyComplete
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.dll
 C:\Users\clyde\Desktop\Ticketingsystem - Copy\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.deps.json
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.DAL.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Serilog.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Serilog.Sinks.File.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Constants.dll.config
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Domain.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.pdb
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Ticketingsystem.Logging.dll.config
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Serilog.xml
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Serilog.Sinks.File.xml
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.csprojAssemblyReference.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.AssemblyInfoInputs.cache
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.AssemblyInfo.cs
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.csproj.CopyComplete
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.dll
+C:\Users\clyde\Desktop\github_ticketingsystem\Backend\Ticketingsystem.DAL\obj\Debug\netcoreapp2.0\Ticketingsystem.DAL.pdb

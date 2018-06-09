@@ -1,0 +1,15 @@
+
+
+
+<mat-nav-list>
+    <mat-list-item *ngFor="let user of users">
+      <a matLine >{{ user.firstName ? user.firstName : 'not yet updated'}}</a>
+      <a matLine >{{ user.lastName ? user.lastName : 'Not yet updated'}}</a>
+       <a matLine >{{ user.email ? user.email : 'Not yet updated'}}</a>
+       <a matLine >{{ user.userName ? user.userName : 'Not yet updated'}}</a>
+       <button mat-icon-button (click)="showInfo(link)">
+          <mat-icon>info</mat-icon>
+       </button>
+    </mat-list-item>
+  </mat-nav-list>
+  

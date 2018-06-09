@@ -19,7 +19,7 @@ import { MaterialModule } from "../material.module";
   declarations: [
     ListErrorsComponent,
     NotFoundComponent,
-    UnauthorizedComponent
+    UnauthorizedComponent,
   ],
   imports: [
     BrowserModule,

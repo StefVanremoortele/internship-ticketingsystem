@@ -10,7 +10,7 @@ import {
 import { ErrorObservable } from "rxjs/observable/ErrorObservable";
 
 // tslint:disable-next-line:import-blacklist
-import { Observable } from "rxjs/Rx";
+import { Observable } from "rxjs/Rx"    ;
 import { Subject } from "rxjs/Subject";
 import { catchError } from "rxjs/operators";
 import { UserManager, User, Log } from "oidc-client";
@@ -26,7 +26,7 @@ const settings: any = {
   post_logout_redirect_uri: AppConfig.constants.angularClientUrl,
 
   response_type: "token id_token",
-  scope: "openid profile roles Ticketingsystem_API",
+  scope: "openid profile Ticketingsystem_API",
 
   silent_redirect_uri:
     AppConfig.constants.angularClientUrl + "/silent-renew.html",
@@ -45,7 +45,7 @@ export class AuthService {
   mgr: UserManager = new UserManager(settings);
   userLoadededEvent: EventEmitter<User> = new EventEmitter<User>();
   currentUser: User;
-  loggedIn = false;
+  loggedIn = false
 
   private _loginStatus = new Subject<boolean>();
   private authHeaders: HttpHeaders;
@@ -91,6 +91,7 @@ export class AuthService {
       }
     );
   }
+
 
   clearState() {
     this.mgr
@@ -140,7 +141,7 @@ export class AuthService {
     this.mgr
       .signinRedirect({ data: "some data" })
       .then(function() {
-        LoggerService.log('signinRedirect done');
+        LoggerService.log("signinRedirect done");
       })
       .catch(function(err) {
         console.log(err);
@@ -186,20 +187,13 @@ export class AuthService {
    */
   AuthGet(
     url: string,
-    withHeaders?: boolean,
     options?: RequestOptions
   ): Observable<HttpResponse<any>> {
-    this._setAuthHeaders(this.currentUser);
-    if (withHeaders) {
-      return this.httpClient.get<any>(url, {
-        headers: this.authHeaders,
-        observe: "response"
-      });
-    } else {
+    // this._setAuthHeaders(this.currentUser);
       return this.httpClient
-        .get<any>(url, { headers: this.authHeaders })
+        .get<any>(url)
         .pipe(catchError(err => this.handleHttpError(err)));
-    }
+
   }
 
   AuthPut(
@@ -208,12 +202,12 @@ export class AuthService {
     options?: RequestOptions
   ): Observable<Response> {
     const body = JSON.stringify(data);
-    this._setAuthHeaders(this.currentUser);
+    // this._setAuthHeaders(this.currentUser);
     return this.httpClient.put<any>(url, { headers: this.authHeaders });
   }
 
   AuthDelete(url: string, options?: RequestOptions): Observable<Response> {
-    this._setAuthHeaders(this.currentUser);
+    // this._setAuthHeaders(this.currentUser);
     return this.httpClient.delete<any>(url, { headers: this.authHeaders });
   }
 
@@ -223,24 +217,24 @@ export class AuthService {
     options?: RequestOptions
   ): Observable<Response> {
     const body = JSON.stringify(data);
-    this._setAuthHeaders(this.currentUser);
+    // this._setAuthHeaders(this.currentUser);
     return this.httpClient
       .post<any>(url, body)
       .pipe(catchError(err => this.handleHttpError(err)));
   }
 
-  private _setAuthHeaders(user: any): void {
-    const headers = new HttpHeaders({
-      Authorization: "Bearer " + this.currentUser.access_token,
-      "Content-Type": "application/json",
-      Accept: `application/json, text/plain, */*`
-    });
-    this.authHeaders = headers;
-  }
+  // private _setAuthHeaders(user: any): void {
+  //   const headers = new HttpHeaders({
+  //     Authorization: "Bearer " + this.currentUser.access_token,
+  //     "Content-Type": "application/json",
+  //     Accept: `application/json, text/plain, */*`
+  //   });
+  //   this.authHeaders = headers;
+  // }
 
   private handleHttpError(error: HttpErrorResponse): Observable<HttpError> {
     const dataError = new HttpError();
-    LoggerService.error('Handling error' + error);
+    LoggerService.error("Handling error" + error);
     dataError.statusCode = error.status;
     dataError.message = error.statusText;
     dataError.friendlyMessage = error.error;

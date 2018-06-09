@@ -6,13 +6,14 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FlexFillDirective } from '@angular/flex-layout';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-import './../polyfills';
 
 import { ToastModule, ToastOptions } from 'ng2-toastr';
-
+import './../polyfills';
 import { APP_CONFIG, AppConfig } from './config/app.config';
 
-import { AccountComponent } from './account';
+
+// import { AccountComponent } from './account';
+import { AccountModule } from './account';
 import { authProviders, routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CartComponent } from './cart';
@@ -32,7 +33,6 @@ import {
   CategoryPipe,
   AvailableTicketsPipe,
   SignalRService,
-  DataService,
   HighlightDirective,
   AutofocusDirective
 } from './shared';
@@ -43,15 +43,16 @@ import { WriteOutJsonInterceptor } from './core/write-out-json-interceptor';
 
 export class CustomOption extends ToastOptions {
   animate = 'fade'; // you can override any options available
-  newestOnTop = false;
-  positionClass = 'toast-top-right';
+  newestOnTop = true;
+  positionClass = 'toast-top-center';
   enableHTML = true;
   showCloseButton: true;
+  dismiss: 'click';
 }
 
 @NgModule({
   declarations: [
-    AccountComponent,
+    // AccountComponent,
     AppComponent,
     CartComponent,
     HomeComponent,
@@ -70,6 +71,7 @@ export class CustomOption extends ToastOptions {
     SharedModule,
     MaterialModule,
     routing,
+    AccountModule,
     HttpClientModule,
     FlexLayoutModule,
     ToastModule.forRoot()
@@ -82,7 +84,6 @@ export class CustomOption extends ToastOptions {
     OrderService,
     authProviders,
     SignalRService,
-    DataService,
     GlobalErrorHandler,
     ErrorLoggerService,
     {

@@ -33,6 +33,7 @@
     "ng-rn": "^1.0.0",
     "ng2-date-countdown": "^1.0.1",
     "ng2-toastr": "^4.1.2",
+    "ng2-validation": "^4.2.0",
     "ngx-moment": "^2.0.0-rc.0",
     "oidc-client": "^1.4.1",
     "rxjs": "^5.5.6",

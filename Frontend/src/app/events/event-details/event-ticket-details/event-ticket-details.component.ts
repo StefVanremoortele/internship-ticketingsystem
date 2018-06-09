@@ -70,7 +70,6 @@ export class EventTicketDetailsComponent
     private vcr: ViewContainerRef,
     private ngZone: NgZone
   ) {
-    this.name = "stef"; // toaster test
     this.toastr.setRootViewContainerRef(vcr);
 
   }
@@ -93,7 +92,6 @@ export class EventTicketDetailsComponent
   }
 
   ngOnChanges() {
-    console.log('eventTicketDetailsComponent onChanges');
     this.ticketDetails = this.stock;
     this.amountOfAvailableTickets = this.ticketDetails.amount;
     this.loading = false;
@@ -101,17 +99,10 @@ export class EventTicketDetailsComponent
   }
 
   ngOnDestroy(): void {
-    console.log('eventTicketDetailsComponent onDestroy');
     this._signalRService.stop();
   }
 
-  doToast() {
-    this.toastr.custom("Alert", "YES !");
-    console.log(this.toastr);
-    console.log("Toasty");
-  }
 
-  popToast() {}
 
   reserveTicketByType(ticketType: string, amount: string) {
     this.loading = true;
@@ -120,7 +111,6 @@ export class EventTicketDetailsComponent
       .subscribe(
         (res: HttpResponse<any>) => {
           this.loading = false;
-          this.doToast();
           // tslint:disable-next-line:no-unused-expression
           // this.availableTickets = this.availableTickets - Number(amount);
         },
@@ -150,9 +140,6 @@ export class EventTicketDetailsComponent
     dataError.message = error.statusText;
     dataError.friendlyMessage = error.error.text;
 
-    this.ngZone.run(() => {
-      this.doToast();
-  });
 
     this.errorMsg.emit(dataError.friendlyMessage);
     this.loading = false;

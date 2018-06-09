@@ -36,7 +36,7 @@ import { AppConfig } from '../config/app.config';
 
 })
 export class OrderHistoryComponent implements AfterViewInit {
-
+  title: String = "Order History";
   displayedColumns = ['orderId', 'orderState', 'dateOpened', 'dateClosed'];
   dataSource = new MatTableDataSource();
 

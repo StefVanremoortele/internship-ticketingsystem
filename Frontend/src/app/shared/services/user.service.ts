@@ -1,33 +1,54 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
+import { distinctUntilChanged, map, catchError, tap } from 'rxjs/operators';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { ReplaySubject } from 'rxjs/ReplaySubject';
 
-import { User } from '../models/user.model';
-import { distinctUntilChanged, map } from 'rxjs/operators';
+import { ApplicationUser } from '../models/applicationuser.model';
 import { AppConfig } from './../../config/app.config';
+import { AuthService } from './authentication.service';
 
 @Injectable()
 export class UserService {
+  private accountEndpoint = AppConfig.endpoints['account'];
   private usersEndpoint = AppConfig.endpoints['users'];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private authService: AuthService) { }
 
   getAll() {
-    return this.http.get<User[]>(this.usersEndpoint);
+    return this.http.get<ApplicationUser[]>(this.usersEndpoint);
   }
 
-  getById(id: number) {
-    return this.http.get('/api/users/' + id);
+  getAllUserRoles() {
+    return this.http.get<any>(this.usersEndpoint + '/roles');
   }
 
-  create(user: User) {
+  getById(userId: string): Observable<ApplicationUser> {
+    return this.http.get(this.usersEndpoint + '/' + userId)
+      .pipe(
+        map(
+          (res: ApplicationUser) => {
+            return res;
+          },
+          err => {
+            return err;
+          }
+        )
+      );
+  }
+
+  create(user: ApplicationUser) {
     return this.http.post('/api/users', user);
   }
 
-  update(user: User) {
-    return this.http.put('/api/users/' + user.id, user);
+  
+  update(userForUpdate: ApplicationUser) : Observable<any> {
+    console.log("Updating in userservice" );
+    console.log(userForUpdate );
+    return this.http.put(this.accountEndpoint + '/profile/update', userForUpdate).pipe(
+      tap(_ => console.log('Updated the user')),
+    );;
   }
 
   delete(id: number) {

@@ -21,7 +21,6 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/ng2-toastr/bundles/ng2-toastr.css",
         "styles.scss",
         "theme.scss",
         "assets/loader.scss"

@@ -1,25 +1,58 @@
-<div id="title">
+<div class='title'>
   <h1>{{title}}</h1>
 </div>
 
-<div class="container color-light">
-  <div class="row content">
-    <p>This is a demo project in which I demonstrate a full-stack web application,
-      <br/>written in asp.net as back-end and angular as front-end
-    </p>
-    <p>
-      The main goal of this project is to build a ticketing system where users can order tickets from different events
-    </p>
-    <p>
-      Taking in consideration the heavy load a web application can get,
-      <br/>I had to make sure my app is concurrency and heavy performance resistant. Everything gets logged in case of failure
-    </p>
-    <p>It contains:</p>
-    <ul>
-      <li>Real-time updates</li>
-      <li>Single Sign on onto OAuth Server</li>
-      <li>Load balanced API</li>
-      <li>Scheduled Cart timer</li>
-    </ul>
+<div class="container-fluid color-light">
+  <div class="row  align-items-end">
+    <div class="col-sm-10 offset-1 content">
+
+      <p>This is a demo project in which I demonstrate a
+        <span>full-stack web application </span>
+        <br/>written in
+        <span>asp.net</span> and
+        <span>angular</span>
+      </p>
+      <p>
+        The main goal of this project is to build a ticketing system where users can order tickets from different events
+      </p>
+    </div>
   </div>
+
+  <div class="row  align-items-end">
+    <!-- <div class="d-flex showcase-description"> -->
+      <div class="col-sm-4 product-info ">
+        <img src="../../assets/media/azure2.png" class="azure-img'" alt="Azure" />
+        <div class="desc">99% up-time due to load-balanced API in the cloud on Azure</div>
+      </div>
+      <div class="col-sm-4 product-info">
+        <img src="../../assets/media/real-time.png" alt="Real-time" />
+        <div class="desc">Enjoy real-time updates while ordering tickets</div>
+      </div>
+      <div class="col-sm-4 product-info">
+        <img src="../../assets/media/oauth.png" alt="OAuth" />
+        <div class="desc">Experience the ease of single-sign-on</div>
+      </div>
+    </div>
+
+      <div class="row  align-items-end">
+    <div class="col-sm-10 offset-1 content d-inline">
+      <p>
+        Taking in consideration the heavy load a web application can get,
+        <br/> I had to make sure my app is
+        <span>concurrency</span> and
+        <span>heavy performance resistant</span>. </p>
+      <p>Everything gets logged in case of failure</p>
+
+    </div>
+    <div class="col-sm-10 offset-1 content">
+      <div class="signature">
+        <img src="../../assets/media/signature.png" alt="Signature" />
+        <div class="sign-desc">produced with much love (and coffee),
+          <span>Stef Vanremoortele</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
+ 

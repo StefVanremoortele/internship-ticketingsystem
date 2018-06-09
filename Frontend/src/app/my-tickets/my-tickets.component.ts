@@ -19,6 +19,8 @@ import { map } from 'rxjs/operators/map';
 })
 export class MyTicketsComponent implements OnInit {
   boughtTickets$: Observable<Ticket[]>;
+  boughtTickets: Ticket[];
+  title: String = "My Tickets";
 
   constructor(
     private location: Location,
@@ -31,6 +33,7 @@ export class MyTicketsComponent implements OnInit {
     this.boughtTickets$ = this.ticketService.getBoughtTicketsFromUser(this.authService.Get().profile.sub)
     .pipe(
       map( (res: Ticket[]) => {
+        this.boughtTickets = res;
         return res;
       })
     );
@@ -41,7 +44,8 @@ export class MyTicketsComponent implements OnInit {
   }
 
   hasBoughtTickets() {
-    return this.boughtTickets$ != null;
+    return this.boughtTickets.length > 0;
   }
+
 
 }

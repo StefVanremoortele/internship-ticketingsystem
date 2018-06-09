@@ -10,8 +10,9 @@ $custom-theme: mat-dark-theme($custom-primary, $custom-accent);
 @include angular-material-theme($custom-theme);
 
 $alt-primary: mat-palette($mat-light-green, 900);
-$alt-accent: mat-palette($mat-lime, A400);
-$alt-warning: mat-palette($mat-light-green, A400);
+$alt-accent: mat-palette($mat-red, 900);
+$alt-warning: mat-palette($mat-light-green, 300);
+
 $alt-theme: mat-dark-theme($alt-primary, $alt-accent, $alt-warning);
 
 

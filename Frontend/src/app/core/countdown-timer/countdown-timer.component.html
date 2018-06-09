@@ -1,8 +1,8 @@
 <div class="countdown">
  <div class="label">
-   <p>Time Left</p>
+   <p>Time Left:</p>
  </div>
-  <div *ngFor="let time of display; let i = index" class="measurements {{time}}">
+  <div *ngFor="let time of display; let i = index" class="measurements {{time}}" [ngStyle]="{'color': displayNumbers[0] >= 5 ? '#82CC4D' : '#f45e61'}">
     <p class="measurements-number">
       {{ (showZero && displayNumbers[i] < 10) ? '0' + displayNumbers[i].trim() : displayNumbers[i]}}
     </p>

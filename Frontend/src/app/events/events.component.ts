@@ -11,6 +11,7 @@ import { AuthService, UserService, EventService } from '../shared/services/';
 import { Event, Stock } from '../shared/models';
 import { fadeInOut } from '../shared/services/animations';
 
+import { TruncatePipe } from "./../shared/pipes";
 
 @Component({
   selector: 'app-events',
@@ -20,15 +21,15 @@ import { fadeInOut } from '../shared/services/animations';
   animations: [fadeInOut]
 })
 
-export class EventsComponent implements OnInit {
-  title: string;
-  events$: Observable<Event[]>;
+                export class EventsComponent implements OnInit {
+title: string;
+events$: Observable<Event[]>;
 
-  constructor(private eventService: EventService,
-    private authService: AuthService,
-    private userService: UserService,
-    private router: Router,
-  ) {
+constructor(private eventService: EventService,
+private authService: AuthService,
+private userService: UserService,
+private router: Router,
+) {
     this.title = "Events";
   }
 

@@ -8,17 +8,6 @@ namespace Ticketingsystem.Constants
 {
     public static class General
     {
-        public const string Authority_URI = "http://localhost:5000";
-        public const string MvcClient_URI = "http://localhost:5002";
-        public const string AngularClient_URI = "http://localhost:4200";
-
-        //public const string API_URI = "http://localhost:5001";
-        public const string API_URI = "http://ticketing-api1.westeurope.cloudapp.azure.com";
-
-        //public const string Authority_URI = "http://identity-provider.eastus.cloudapp.azure.com";
-        //public const string API_1_URI = "http://ticketing-api1.westeurope.cloudapp.azure.com";
-        //public const string API_2_URI = "http://ticketing-api2.westeurope.cloudapp.azure.com";
-        //public const string AngularClient_URI = "https://internship-ticketing-system.azurewebsites.net";
 
         public const string ApiName = "Ticketingsystem_API";
 
@@ -34,5 +23,17 @@ namespace Ticketingsystem.Constants
 
         public const string SCOPE_READ = "Ticketingsystem.READ";
         public const string SCOPE_WRITE = "Ticketingsystem.WRITE";
+
+        // local
+        public const string MvcClient_URI = "http://localhost:5002";
+        //public const string Authority_URI = "http://localhost:5000";
+        //public const string AngularClient_URI = "http://localhost:4200";
+        //public const string API_URI = "http://localhost:5001";
+
+
+        // azure deployment
+        public const string Authority_URI = "https://identity-provider.eastus.cloudapp.azure.com";
+        public const string API_URI = "https://ticketingsystem-api.westeurope.cloudapp.azure.com";
+        public const string AngularClient_URI = "https://internship-ticketing-system.azurewebsites.net";
     }
 }

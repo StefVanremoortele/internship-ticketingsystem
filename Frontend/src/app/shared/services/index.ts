@@ -6,4 +6,4 @@ export * from "./ticket.service";
 export * from "./user.service";
 export * from "./signalR.service";
 export * from "./animations";
-export * from "./toast.service";
+export * from "./account.service"

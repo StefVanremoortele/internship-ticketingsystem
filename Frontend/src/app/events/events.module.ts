@@ -9,15 +9,6 @@ import { SharedModule, MaterialModule, CoreModule } from '..';
 import { FormsModule } from '@angular/forms';
 import { ToastModule, ToastOptions } from 'ng2-toastr';
 
-export class CustomOption extends ToastOptions {
-  animate = 'slideUp'; // you can override any options available
-  newestOnTop = false;
-  positionClass = 'toast-top-right';
-  enableHTML = true;
-  showCloseButton: true;
-}
-
-
 
 @NgModule({
   declarations: [
@@ -28,15 +19,12 @@ export class CustomOption extends ToastOptions {
   imports: [
     MaterialModule,
     SharedModule,
-    CommonModule,
     CoreModule,
-    FormsModule,
     ToastModule.forRoot()
   ],
   exports: [
   ],
   providers: [
-    { provide: ToastOptions, useClass: CustomOption }
   ]
 })
 export class EventsModule {

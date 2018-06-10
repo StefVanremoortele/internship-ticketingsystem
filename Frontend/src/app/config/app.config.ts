@@ -2,7 +2,8 @@ import { InjectionToken } from '@angular/core';
 
 import { IAppConfig } from './iapp.config';
 
-export const apiUrl = 'http://localhost:5001/api';
+// export const apiUrl = 'http://localhost:5001/api';
+export const apiUrl = 'https://ticketingsystem-api.westeurope.cloudapp.azure.com/api';
 
 export let APP_CONFIG = new InjectionToken('app.config');
 
@@ -50,11 +51,11 @@ export const AppConfig: IAppConfig = {
     orders: apiUrl + '/account/orders',
     tickets: apiUrl + '/account/tickets',
     account: apiUrl + '/account',
-    // signalrHub: 'http://ticketingsystem-api.eastus.cloudapp.azure.com/coolmessages'
-    signalrHub: 'http://localhost:5001/coolmessages'
+    signalrHub: 'https://ticketingsystem-api.westeurope.cloudapp.azure.com/stockupdates'
   },
   constants: {
-    angularClientUrl: 'http://localhost:4200',
-    authorityUrl: 'http://localhost:5000'
+    // angularClientUrl: 'http://localhost:4200',
+    angularClientUrl: 'https://internship-ticketing-system.azurewebsites.net',
+    authorityUrl: 'https://identity-provider.eastus.cloudapp.azure.com'
   }
 };

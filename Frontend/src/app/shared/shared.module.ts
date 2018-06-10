@@ -5,12 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { MomentModule } from 'ngx-moment';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MaterialModule } from './../material.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { CategoryPipe, AvailableTicketsPipe, EventDatePipe } from './pipes';
-import { AccountService } from './services/account.service';
-import { FormsModule } from '@angular/forms';
-import { TruncatePipe } from './pipes/truncate.pipe';
+import { MaterialModule } from './../material.module';
+import { CategoryPipe, AvailableTicketsPipe, EventDatePipe, TruncatePipe } from './pipes';
+import {  } from './services/account.service';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { OrderService, EventService, TicketService, AuthService, UserService, SignalRService, AccountService } from './services';
 
 @NgModule({
   declarations: [
@@ -25,11 +26,19 @@ import { TruncatePipe } from './pipes/truncate.pipe';
     HttpClientModule,
     RouterModule,
     MomentModule,
+    ReactiveFormsModule,
+    FlexLayoutModule,
     FormsModule
   ],
   exports: [CategoryPipe, AvailableTicketsPipe, EventDatePipe, TruncatePipe, FormsModule],
   providers: [
-    AccountService
+    AccountService,
+    UserService,
+    EventService,
+    TicketService,
+    AuthService,
+    OrderService,
+    SignalRService
   ]
 })
 export class SharedModule {}

@@ -113,12 +113,12 @@ namespace Ticketingsystem.IdentityServer
                     RedirectUris = { Constants.General.AngularClient_URI + "/signin-callback.html" },
                     PostLogoutRedirectUris = { Constants.General.AngularClient_URI },
                     AllowedCorsOrigins = { Constants.General.AngularClient_URI },
-
+                        
                     ClientClaimsPrefix = "",
                     AlwaysSendClientClaims = true,
                     AlwaysIncludeUserClaimsInIdToken = true,
 
-                    AccessTokenLifetime = 100000,
+                    //AccessTokenLifetime = 100000,
 
                     AllowedScopes =
                     {

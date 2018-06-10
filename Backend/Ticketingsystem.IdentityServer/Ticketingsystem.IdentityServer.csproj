@@ -40,5 +40,9 @@
   <ItemGroup>
     <Folder Include="Data\Migrations\" />
   </ItemGroup>
+  
+  <PropertyGroup>
+        <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+    </PropertyGroup>
 
 </Project>

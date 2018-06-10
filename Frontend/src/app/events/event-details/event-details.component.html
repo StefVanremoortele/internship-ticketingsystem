@@ -1,7 +1,7 @@
 <!-- Event details -->
 <div class="container">
   <div class="row" *ngIf="!errorMsg else error">
-    <div class="offset-2 col-sm-8" *ngIf="!loading">
+    <div class="col-sm-12" *ngIf="!loading">
       <div *ngIf="event$ | async; let event else noContent">
         <div *ngIf="event else noContent">
           <h1>Event: {{ event.name }}</h1>
@@ -20,10 +20,10 @@
         </div>
       </div>
     </div>
+    <div class="btnBack" color="primary">
+      <button class="btn btn-info" (click)="goback()">Back</button>
   </div>
-  <div class="btnBack" color="primary">
-    <button class="btn btn-default btn-sm" (click)="goback()">Back</button>
-</div>
+  </div>
 </div>
 
 <ng-template #noContent>

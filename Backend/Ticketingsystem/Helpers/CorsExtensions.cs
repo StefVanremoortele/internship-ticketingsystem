@@ -14,7 +14,7 @@ namespace Ticketingsystem.Helpers
             {
                 options.AddPolicy("CorsPolicy",
                     builder => builder
-                        .WithOrigins(Constants.General.MvcClient_URI, Constants.General.AngularClient_URI, "http://localhost:4200")
+                        .WithOrigins(/*Constants.General.MvcClient_URI,*/ Constants.General.AngularClient_URI)
                         .AllowAnyMethod()
                         .AllowCredentials()
                         .AllowAnyHeader());

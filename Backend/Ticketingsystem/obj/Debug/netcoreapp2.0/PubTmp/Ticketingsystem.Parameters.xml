@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="Default Web Site" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="TicketingSystem" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\clyde\\Desktop\\github_ticketingsystem\\Backend\\Ticketingsystem\\obj\\Debug\\netcoreapp2\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

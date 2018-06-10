@@ -4,7 +4,7 @@
 
 
 <div class="order-history-container mat-elevation-z8">
-  <div *ngIf="hasResults else noContent">
+  <!-- <div *ngIf="hasResults else noContent"> -->
     <div class="order-history-loading-shade" *ngIf="isLoadingResults">
       <mat-spinner [@fadeInOut]></mat-spinner>
     </div>
@@ -39,7 +39,7 @@
     </mat-table>
     <mat-paginator [length]="resultsLength" [pageSize]="10">
     </mat-paginator>
-  </div>
+  <!-- </div> -->
 </div>
 
 <ng-template #noContent>

@@ -43,7 +43,7 @@ namespace Ticketingsystem.IdentityServer
                 {
                     options.AddPolicy("CorsPolicy",
                         builder => builder
-                            .WithOrigins(Constants.General.MvcClient_URI, Constants.General.AngularClient_URI, "http://localhost:4200")
+                            .WithOrigins(Constants.General.MvcClient_URI, Constants.General.AngularClient_URI, Constants.General.API_URI)
                             .AllowAnyMethod()
                             .AllowCredentials()
                             .AllowAnyHeader());
@@ -53,7 +53,7 @@ namespace Ticketingsystem.IdentityServer
 
             // SQL SERVER DbContext
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("AzureConnection")));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -62,10 +62,10 @@ namespace Ticketingsystem.IdentityServer
             services.AddIdentityServer()
                 .AddOperationalStore(options =>
                     options.ConfigureDbContext = builder =>
-                        builder.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), sqlOptions => sqlOptions.MigrationsAssembly("Ticketingsystem.IdentityServer")))
+                        builder.UseSqlServer(Configuration.GetConnectionString("AzureConnection"), sqlOptions => sqlOptions.MigrationsAssembly("Ticketingsystem.IdentityServer")))
                 .AddConfigurationStore(options =>
                     options.ConfigureDbContext = builder =>
-                        builder.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), sqlOptions => sqlOptions.MigrationsAssembly("Ticketingsystem.IdentityServer")))
+                        builder.UseSqlServer(Configuration.GetConnectionString("AzureConnection"), sqlOptions => sqlOptions.MigrationsAssembly("Ticketingsystem.IdentityServer")))
                 .AddAspNetIdentity<ApplicationUser>()
                 .AddDeveloperSigningCredential()
                 .AddProfileService<ProfileService>();

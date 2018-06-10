@@ -47,7 +47,7 @@ namespace Ticketingsystem
             //SQL Server
             services.AddDbContext<ApplicationDbContext>(options =>
             {
-                options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"], b => b.MigrationsAssembly("Ticketingsystem.DAL"));
+                options.UseSqlServer(Configuration["ConnectionStrings:AzureConnection"], b => b.MigrationsAssembly("Ticketingsystem.DAL"));
             });
 
 
@@ -81,7 +81,7 @@ namespace Ticketingsystem
                 .AddIdentityServerAuthentication(options =>
                 {
                     // === FOR DEMO ONLY
-                    options.RequireHttpsMetadata = false;
+                    options.RequireHttpsMetadata = true;
                     // SET THIS TO true IN PRODUCTION!
 
                     options.Authority = Constants.General.Authority_URI;

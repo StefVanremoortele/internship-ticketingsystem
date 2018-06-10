@@ -8,4 +8,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmWCVLzlfkCNRsrs1pXR0AAAAAACAAAAAAAQZgAAAAEAACAAAABO5ONQ4W/mM/KXHhygNEtHj3udLn1G+/uNjZ0wFIOa2AAAAAAOgAAAAAIAACAAAABu2UWLJnnLGeKUqkOha8RPg/CXOR+nVbxQ1DmYDh6WPTAAAADsr5aGMr/58cCWsMfqxShyOmlODqBH1zTp5DYLj0LTU9ZBnIkeipiCzyNSCLX/Vd1AAAAAnh8AVc2z6Jftlo8KwIrRJoOxp2oMksJdGuiOVtd5s5FryQ9UavgBLDbObOIBZASrfGK1LsStAA7vslyqRQF3Hw==</EncryptedPassword>
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AzureConnection">
+      <Value>Data Source=tcp:ticketing-db.westeurope.cloudapp.azure.com,1433;Initial Catalog=TicketingDb;User ID=azureuser;Password=TicketingVMPass123$</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="QuartzConnection">
+      <Value>Data Source=tcp:ticketing-db.westeurope.cloudapp.azure.com,1433;Initial Catalog=QuartzDb;User ID=azureuser;Password=TicketingVMPass123$</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>

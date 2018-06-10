@@ -23,11 +23,11 @@
       <mat-sidenav class="the-dark-theme" #sidenav [mode]="'side'">
         <mat-nav-list>
           <div *ngIf="isLoggedIn()" color="accent">
-            <a mat-list-item routerLink="{{nav.routerLink}}" *ngFor="let nav of loggedInNav">{{nav.name}}</a>
+            <a mat-list-item routerLink="{{nav.routerLink}}" *ngFor="let nav of loggedInNavMenuItems">{{nav.name}}</a>
             <a mat-list-item routerLink="." (click)="logout()">Log Out</a>
           </div>
           <div *ngIf="!isLoggedIn()">
-            <a mat-list-item routerLink="{{nav.routerLink}}" *ngFor="let nav of loggedOutNav">{{nav.name}}</a>
+            <a mat-list-item routerLink="{{nav.routerLink}}" *ngFor="let nav of loggedOutNavMenuItems">{{nav.name}}</a>
             <a mat-list-item routerLink="." (click)="login()">Log In</a>
           </div>
         </mat-nav-list>
@@ -40,3 +40,5 @@
     </mat-sidenav-container>
   </div>
 </div>
+
+

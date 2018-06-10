@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="AzureConnection">
-      <Value>Data Source=tcp:ticketingsystem-db.westeurope.cloudapp.azure.com,1433;Initial Catalog=TicketingDbIdsrv;User ID=azureuser;Password=TicketingVMPass123$</Value>
+      <Value>Data Source=tcp:ticketing-db.westeurope.cloudapp.azure.com,1433;Initial Catalog=TicketingDbIdsrv;User ID=azureuser;Password=TicketingVMPass123$</Value>
     </DestinationConnectionStrings>
   </ItemGroup>
 </Project>

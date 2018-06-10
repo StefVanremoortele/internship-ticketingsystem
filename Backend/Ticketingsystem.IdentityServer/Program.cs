@@ -52,6 +52,7 @@ namespace Ticketingsystem.IdentityServer
                         builder.ClearProviders();
                         builder.AddSerilog();
                     })
+                    .UseUrls("http://*:80/")
                     .Build();
         }
     }

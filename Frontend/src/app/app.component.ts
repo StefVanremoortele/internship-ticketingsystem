@@ -10,9 +10,6 @@ import { User } from 'oidc-client';
 import { UserService, AuthService, EventService } from './shared/services/';
 import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 import { Subscription } from 'rxjs/Subscription';
-// import { ToastService } from './shared/services/toast.service';
-
-
 
 @Component({
   selector: 'app-root',
@@ -23,12 +20,15 @@ export class AppComponent implements OnInit {
   userSub: Subscription;
   currentUser: User;
 
-  loggedInNav = AppConfig.loggedInRoutes;
-  loggedOutNav =  AppConfig.loggedOutRoutes;
+  loggedInNavMenuItems = AppConfig.loggedInRoutes;
+  loggedOutNavMenuItems = AppConfig.loggedOutRoutes;
 
   constructor(
-    private authService: AuthService) {
-
+    private authService: AuthService,
+    private toastr: ToastsManager,
+    private vcr: ViewContainerRef
+  ) {
+    this.toastr.setRootViewContainerRef(vcr);
   }
 
   ngOnInit() {
@@ -43,13 +43,24 @@ export class AppComponent implements OnInit {
   }
 
   login() {
-    // this.toastService.popInfoToast("Logging in...", "Authentication alert");
+    this.toastr.info("Logging in...", "Authentication alert");
     setTimeout(() => this.authService.startSigninMainWindow(), 1500);
   }
 
   logout() {
-    // this.toastService.popInfoToast("Logging out...", "Authentication alert");
+    this.toastr.info("Logging out...", "Authentication alert");
     setTimeout(() => this.authService.startSignoutMainWindow(), 1500);
   }
- 
+  
+  popWarningToast() {
+    const msg = "test1";
+    const title = "title";
+    this.toastr.warning(msg, 'Title', {
+      iconClass: 'toast-pink',
+      timeOut: 0,
+      extendedTimeOut: 0,
+      manageClass: 'toastr-custom'
+    });
+  }
+
 }

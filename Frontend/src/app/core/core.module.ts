@@ -7,13 +7,13 @@ import { NgModule, Optional, SkipSelf } from "@angular/core";
 import { RouterModule } from "@angular/router";
 
 import { throwIfAlreadyLoaded } from "./module-import-guard";
-import { LoggerService } from "./logger.service";
 
 import { ListErrorsComponent } from "./list-errors";
 import { UnauthorizedComponent } from "./unauthorized";
 import { NotFoundComponent } from "./not-found";
-import { SharedModule } from "../shared";
 import { MaterialModule } from "../material.module";
+import { CountdownTimerComponent } from "./countdown-timer";
+import { LoggerService } from "./logger.service";
 
 @NgModule({
   declarations: [
@@ -32,6 +32,8 @@ import { MaterialModule } from "../material.module";
     ReactiveFormsModule
   ],
   exports: [
+    MaterialModule,
+    CommonModule, 
     ListErrorsComponent
   ],
   providers: [LoggerService]

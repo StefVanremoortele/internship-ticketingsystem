@@ -7,25 +7,25 @@ import { ApplicationUser } from '../../shared/models';
   templateUrl: './users.component.html',
   styleUrls: ['./users.component.css']
 })
-export class UsersComponent implements OnInit, AfterContentChecked {
+export class UsersComponent implements OnChanges {
   users: ApplicationUser[];
-
+  
   constructor(private userService: UserService) { }
-
+  
   ngOnInit() {
     this.loadUsers();
   }
-
+  
   loadUsers() {
     this.userService.getAll().subscribe((users: any) => {
       this.users = users;
     })
   }
-
-  ngAfterContentChecked(): void {
-    this.loadUsers();
+  
+  ngOnChanges(changes: SimpleChanges): void {
+    console.log('on Changes being called');
   }
-
+  
   showInfo() {
     // not implemented
   }
